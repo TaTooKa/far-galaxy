@@ -723,11 +723,11 @@ export default function GlobalStyle() {
         }
 
         div.active-traits {
-          border: 1px solid #0a6d61;
+          border: 1px solid ${theme.colors.blueish_darker};
           padding: 10px 20px;
           border-radius: 0 15px 0 15px;
           span#active-traits-title {
-            color: #0a6d61;
+            color: ${theme.colors.blueish_darker};
             font-size: 0.9em;
             font-weight: bold;
           }

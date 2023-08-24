@@ -14,7 +14,7 @@ function CharacterStats() {
       xpTotal: "0",
       state: "inControl",
       grit: "5",
-      psyche: "5",
+      will: "5",
       gear: "5",
       angleProgress: "1",
     }
@@ -128,14 +128,14 @@ function CharacterStats() {
             <input type="radio" name="grit" id="grit5" value={inputs.grit5 || "5"} onChange={handleChange} checked={inputs.grit==="5"}/><label for="grit5">5</label>
           </div>
 
-          <div class="stat-bar" id="psyche-stat-bar">
-            <span class="title">PSYCHE</span>
-            <input type="radio" name="psyche" id="psyche0" value={inputs.psyche0 || "0"} onChange={handleChange} checked={inputs.psyche==="0"}/><label for="psyche0">0</label>
-            <input type="radio" name="psyche" id="psyche1" value={inputs.psyche1 || "1"} onChange={handleChange} checked={inputs.psyche==="1"}/><label for="psyche1">1</label>
-            <input type="radio" name="psyche" id="psyche2" value={inputs.psyche2 || "2"} onChange={handleChange} checked={inputs.psyche==="2"}/><label for="psyche2">2</label>
-            <input type="radio" name="psyche" id="psyche3" value={inputs.psyche3 || "3"} onChange={handleChange} checked={inputs.psyche==="3"}/><label for="psyche3">3</label>
-            <input type="radio" name="psyche" id="psyche4" value={inputs.psyche4 || "4"} onChange={handleChange} checked={inputs.psyche==="4"}/><label for="psyche4">4</label>
-            <input type="radio" name="psyche" id="psyche5" value={inputs.psyche5 || "5"} onChange={handleChange} checked={inputs.psyche==="5"}/><label for="psyche5">5</label>
+          <div class="stat-bar" id="will-stat-bar">
+            <span class="title">WILL</span>
+            <input type="radio" name="will" id="will0" value={inputs.will0 || "0"} onChange={handleChange} checked={inputs.will==="0"}/><label for="will0">0</label>
+            <input type="radio" name="will" id="will1" value={inputs.will1 || "1"} onChange={handleChange} checked={inputs.will==="1"}/><label for="will1">1</label>
+            <input type="radio" name="will" id="will2" value={inputs.will2 || "2"} onChange={handleChange} checked={inputs.will==="2"}/><label for="will2">2</label>
+            <input type="radio" name="will" id="will3" value={inputs.will3 || "3"} onChange={handleChange} checked={inputs.will==="3"}/><label for="will3">3</label>
+            <input type="radio" name="will" id="will4" value={inputs.will4 || "4"} onChange={handleChange} checked={inputs.will==="4"}/><label for="will4">4</label>
+            <input type="radio" name="will" id="will5" value={inputs.will5 || "5"} onChange={handleChange} checked={inputs.will==="5"}/><label for="will5">5</label>
           </div>
 
           <div class="stat-bar" id="gear-stat-bar">
