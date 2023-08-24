@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1005"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="far-galaxy-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1007"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1871106"
+     inkscape:cx="394.35591"
+     inkscape:cy="419.50324"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1002">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1452">
+      <stop
+         style="stop-color:#352539;stop-opacity:1"
+         offset="0"
+         id="stop1448" />
+      <stop
+         style="stop-color:#ffec00;stop-opacity:1"
+         offset="1"
+         id="stop1450" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3617"
+       id="linearGradient3621"
+       x1="78.848053"
+       y1="13.283257"
+       x2="78.848053"
+       y2="-2.554472"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96768538,0,0,0.96768538,37.355986,94.644881)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3617">
+      <stop
+         style="stop-color:#332572;stop-opacity:1"
+         offset="0"
+         id="stop3613" />
+      <stop
+         style="stop-color:#d3b65f;stop-opacity:1"
+         offset="1"
+         id="stop3615" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1452"
+       id="linearGradient1454"
+       x1="110.96023"
+       y1="99.655838"
+       x2="110.96023"
+       y2="106.84132"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.926px;line-height:1.25;font-family:'SF Distant Galaxy';-inkscape-font-specification:'SF Distant Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient1454);fill-opacity:1;stroke:#000000;stroke-width:0.999;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stroke-linecap:butt"
+       x="55.218391"
+       y="108.48053"
+       id="text3897-8"><tspan
+         sodipodi:role="line"
+         id="tspan3895-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.926px;font-family:'SF Distant Galaxy';-inkscape-font-specification:'SF Distant Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient1454);fill-opacity:1;stroke-width:0.999;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stroke-linecap:butt"
+         x="55.218391"
+         y="108.48053">far galaxy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.926px;line-height:1.25;font-family:'SF Distant Galaxy Outline';-inkscape-font-specification:'SF Distant Galaxy Outline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient3621);fill-opacity:1;stroke:none;stroke-width:0.299;stroke-opacity:0.52058822;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;paint-order:markers fill stroke;stroke-linejoin:miter"
+       x="55.261162"
+       y="108.48051"
+       id="text3897"><tspan
+         sodipodi:role="line"
+         id="tspan3895"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.926px;font-family:'SF Distant Galaxy Outline';-inkscape-font-specification:'SF Distant Galaxy Outline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient3621);fill-opacity:1;stroke-width:0.299;stroke:none;stroke-opacity:0.52058822;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;paint-order:markers fill stroke;stroke-linejoin:miter"
+         x="55.261162"
+         y="108.48051">far galaxy</tspan></text>
+  </g>
+</svg>

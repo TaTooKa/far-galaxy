@@ -1,2 +1,3 @@
-# tatooka.github.io
-public github page ! :D
+# FAR GALAXY
+
+## Roleplaying in a Galaxy Far, Far Away...

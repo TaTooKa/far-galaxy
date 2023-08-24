@@ -87,7 +87,7 @@ export default function importExport() {
                 <br/>
                 <hr/>
                 <br/>
-                <blockquote><p>Note that the <b>cy.br/dys.top.ia</b> web app already saves your character stats, traits and challenges using your browser's <i>localStorage</i>. Since this is similar to <i>web cookies</i>, it will get erased if you clear the cache, uninstall the app, etc. <br/>For that reason, it is recommended that you use this IMPORT/EXPORT functionality often to backup your progress safely.</p></blockquote>
+                <blockquote><p>Note that the <b>FAR GALAXY</b> web app already saves your character stats, traits and challenges using your browser's <i>localStorage</i>. Since this is similar to <i>web cookies</i>, it will get erased if you clear the cache, uninstall the app, etc. <br/>For that reason, it is recommended that you use this IMPORT/EXPORT functionality often to backup your progress safely.</p></blockquote>
             </div>
         </Layout>
     );

@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `cy.br/dys.top.ia`,
-    defaultTitle: `cy.br/dys.top.ia`,
-    siteTitleShort: `cy.br/dys.top.ia`,
-    siteDescription: `cy.br/dys.top.ia RPG website`,
-    siteUrl: `https://tatooka.github.io`,
+    siteTitle: `Far Galaxy`,
+    defaultTitle: `Far Galaxy`,
+    siteTitleShort: `far-galaxy`,
+    siteDescription: `Far Galaxy RPG website`,
+    siteUrl: `https://far-galaxy.vercel.app`,
     siteAuthor: `@tatooka`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `cy.br/dys.top.ia`,
-        short_name: `cy.br/dys.top.ia`,
+        name: `Far Galaxy`,
+        short_name: `far-galaxy`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://tatooka.github.io`,
+        siteUrl: `https://far-galaxy.vercel.app`,
       },
     },
     `gatsby-plugin-offline`,
