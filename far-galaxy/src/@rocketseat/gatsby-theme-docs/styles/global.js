@@ -54,6 +54,16 @@ export default function GlobalStyle() {
             size-adjust: 100%;
         }
 
+        @font-face {
+            font-family: 'SFDistantGalaxy';
+            font-weight: normal;
+            font-display: swap;
+            font-style: normal;
+            font-named-instance: 'Regular';
+            src: url(/fonts/SFDistantGalaxy.woff2) format("woff2");
+            size-adjust: 100%;
+        }
+
         body {
           font-size: 22px;
           font-family: ${theme.fonts.body};
@@ -117,10 +127,10 @@ export default function GlobalStyle() {
           font-size: 1.2em;
           color: ${theme.darkcolors.text};
           -webkit-text-stroke: 1px #000;
-          text-shadow: 0 0 10px ${theme.colors.turquoise}, 2px 2px 5px #000;
+          text-shadow: 0 0 10px ${theme.colors.blueish}, 2px 2px 5px #000;
 
           .anchor svg {
-            box-shadow: inset 0 0 10px ${theme.colors.turquoise};
+            box-shadow: inset 0 0 10px ${theme.colors.blueish};
             border-radius: 6px;
             padding: 2px;
           }
@@ -138,14 +148,14 @@ export default function GlobalStyle() {
           color: ${theme.darkcolors.text};
         }
         
-        .turquoise {
-            color: ${theme.colors.turquoise};
-            -webkit-text-stroke: 1px #008978;
+        .blueish {
+            color: ${theme.colors.blueish};
+            -webkit-text-stroke: 1px ${theme.colors.blueish_darker};
         }
 
-        .fuchsia {
-            color: ${theme.colors.fuchsia};
-            -webkit-text-stroke: 1px #9b005b;
+        .reddish {
+            color: ${theme.colors.reddish};
+            -webkit-text-stroke: 1px ${theme.colors.reddish_darker};
         }
 
         .bold {
@@ -153,7 +163,7 @@ export default function GlobalStyle() {
         }
 
         .stat {
-            font-family: 'Android101';
+            font-family: 'SFDistantGalaxy';
         }
 
         code.inline-code {
@@ -180,13 +190,13 @@ export default function GlobalStyle() {
           color: ${theme.colors.text};
           font-weight: bold;
           text-decoration-style: dotted;
-          text-decoration-color: ${theme.colors.fuchsia};
+          text-decoration-color: ${theme.colors.reddish};
           transition: 0.5s;
 
           &:hover {
             text-decoration-style: dashed;
-            text-decoration-color: ${theme.colors.turquoise};
-            text-shadow: 0 0 3px ${theme.colors.turquoise};
+            text-decoration-color: ${theme.colors.blueish};
+            text-shadow: 0 0 3px ${theme.colors.blueish};
           }
         }
 
@@ -292,7 +302,7 @@ export default function GlobalStyle() {
         }
 
         img.art {
-          border: 1px solid #0a6d61;
+          border: 1px solid ${theme.darkcolors.blueish_darker};
           border-radius: 0 15px 0 15px;
           margin: 15px auto 5px auto;
           width: 100%;
@@ -474,7 +484,7 @@ export default function GlobalStyle() {
                 background-color: ${theme.darkcolors.components.input.background};
                 font-family: 'EuroStyle';
                 font-weight: bold;
-                border: 1px solid ${theme.colors.turquoise};
+                border: 1px solid ${theme.colors.blueish};
                 border-radius: 0 20px 0 3px;
                 color: ${theme.darkcolors.components.input.text};
                 transition: 3s;
@@ -483,7 +493,7 @@ export default function GlobalStyle() {
                 outline: 1px solid red;
             }
             input:focus, textarea:focus {
-                box-shadow: 0 0 15px ${theme.colors.turquoise};
+                box-shadow: 0 0 15px ${theme.colors.blueish};
                 transition: 0.5s;
             }
             textarea {
@@ -493,7 +503,7 @@ export default function GlobalStyle() {
                 font-weight: bold;
                 font-size: 0.8em;
                 padding: 3px 5px;
-                border: 1px solid ${theme.colors.turquoise};
+                border: 1px solid ${theme.colors.blueish};
                 border-radius: 0 10px 0 3px;
                 transition: 1s;
             }
@@ -551,16 +561,16 @@ export default function GlobalStyle() {
                         display: none;
                     }
                     #inControlInput:checked+label {
-                        color: ${theme.colors.turquoise};
-                        text-shadow: 0 0 15px ${theme.colors.turquoise};
+                        color: ${theme.colors.blueish};
+                        text-shadow: 0 0 15px ${theme.colors.blueish};
                         transition: 0.5s;
-                        box-shadow: inset 0 0 5px ${theme.colors.turquoise};
+                        box-shadow: inset 0 0 5px ${theme.colors.blueish};
                     }
                     #inABadSpotInput:checked+label {
-                        color: ${theme.colors.fuchsia};
-                        text-shadow: 0 0 15px ${theme.colors.fuchsia};
+                        color: ${theme.colors.reddish};
+                        text-shadow: 0 0 15px ${theme.colors.reddish};
                         transition: 0.5s;
-                        box-shadow: inset 0 0 5px ${theme.colors.fuchsia};
+                        box-shadow: inset 0 0 5px ${theme.colors.reddish};
                     }
                 }
                 label {
@@ -581,6 +591,7 @@ export default function GlobalStyle() {
                     .left-col {
                         label.stat {
                             font-size: 1.2em;
+                            font-weight: 100;
                             display: inline-block;
                             width: 200px;
                             text-align: right;
@@ -629,9 +640,9 @@ export default function GlobalStyle() {
                 }
                 input:checked+label {
                     color: #fff;
-                    border: 1px solid ${theme.colors.turquoise};
-                    box-shadow: inset 0 0 5px ${theme.colors.turquoise};
-                    text-shadow: 0 0 10px ${theme.colors.turquoise};
+                    border: 1px solid ${theme.colors.blueish};
+                    box-shadow: inset 0 0 5px ${theme.colors.blueish};
+                    text-shadow: 0 0 10px ${theme.colors.blueish};
                 }
                 input {
                     display: none;
@@ -684,10 +695,10 @@ export default function GlobalStyle() {
                         box-shadow: inset 0 0 5px #000;
                     }
                     .col input:checked+label {
-                        color: ${theme.colors.turquoise};
-                        text-shadow: 0 0 10px ${theme.colors.turquoise};
-                        box-shadow: inset 0 0 5px ${theme.colors.turquoise};
-                        border: 1px solid ${theme.colors.turquoise};
+                        color: ${theme.colors.blueish};
+                        text-shadow: 0 0 10px ${theme.colors.blueish};
+                        box-shadow: inset 0 0 5px ${theme.colors.blueish};
+                        border: 1px solid ${theme.colors.blueish};
                         border-radius: 15px;
                         transition: 0.5s;
                     }
@@ -727,7 +738,7 @@ export default function GlobalStyle() {
 
         form.character-traits {
           .trait {
-            border: 1px solid #0a6d6166;
+            border: 1px solid ${theme.darkcolors.blueish_darker};
             margin: 10px 0 25px 0;
             ${'' /* padding: 10px 0; */}
             padding: 20px;
@@ -735,8 +746,8 @@ export default function GlobalStyle() {
             opacity: 0.9;
             :has(input:checked) {
               opacity: 1;
-              border: 1px solid #0a6d61ff;
-              box-shadow: inset 0 0 100px #0a6d61ff;
+              border: 1px solid ${theme.darkcolors.blueish};
+              box-shadow: inset 0 0 100px ${theme.darkcolors.blueish_darker};
             }
             input[type="checkbox"] {
               appearance: none;
@@ -757,13 +768,13 @@ export default function GlobalStyle() {
               }
 
               :checked {
-                border: 1px solid ${theme.colors.turquoise};
-                box-shadow: inset 0 0 6px ${theme.colors.turquoise}, inset 0 0 20px ${theme.colors.fuchsia}, 0 0 12px ${theme.colors.turquoise};
+                border: 1px solid ${theme.colors.blueish};
+                box-shadow: inset 0 0 6px ${theme.colors.blueish}, inset 0 0 20px ${theme.colors.reddish}, 0 0 12px ${theme.colors.blueish};
                 transform: translate(-8px, 0px);
               }
               :checked::before {
-                color: ${theme.colors.turquoise};
-                text-shadow: 0 0 3px ${theme.colors.turquoise};
+                color: ${theme.colors.blueish};
+                text-shadow: 0 0 3px ${theme.colors.blueish};
               }
             }
             label {
@@ -777,19 +788,19 @@ export default function GlobalStyle() {
                 letter-spacing: 0.1em;
                 transition: 0.5s;
                 color: #000;
-                text-shadow: 0 0 8px ${theme.colors.turquoise};
+                text-shadow: 0 0 8px ${theme.colors.blueish};
               }
             }
             input:checked+label .trait-name {
               margin: 0 0 0 -5px;
               letter-spacing: 0.15em;
-              text-shadow: 0 0 10px ${theme.colors.turquoise};
-              color: ${theme.colors.turquoise};
+              text-shadow: 0 0 10px ${theme.colors.blueish};
+              color: ${theme.colors.blueish};
             }
 
             input:checked+label +img.art, img.art:hover {
-              border: 1px solid ${theme.colors.fuchsia};
-              box-shadow: 0 0 5px ${theme.colors.fuchsia}; 
+              border: 1px solid ${theme.colors.reddish};
+              box-shadow: 0 0 5px ${theme.colors.reddish}; 
               filter: brightness(1);
             }
           }
@@ -820,7 +831,7 @@ export default function GlobalStyle() {
                   font-weight: bold;
                   font-size: 0.9em;
                   padding: 2px 3px 2px 10px;
-                  border: 1px solid ${theme.colors.turquoise};
+                  border: 1px solid ${theme.colors.blueish};
                   border-radius: 0 10px 10px 0;
                   color: ${theme.darkcolors.components.input.text};
                   transition: 3s;
@@ -832,7 +843,7 @@ export default function GlobalStyle() {
                   }
               }
               input:focus {
-                  box-shadow: 0 0 15px ${theme.colors.turquoise};
+                  box-shadow: 0 0 15px ${theme.colors.blueish};
                   transition: 0.5s;
               }
             }
@@ -846,18 +857,18 @@ export default function GlobalStyle() {
             font-family: 'EuroStyle';
             font-weight: bold;
             font-size: 1em;
-            border: 1px solid ${theme.colors.turquoise};
+            border: 1px solid ${theme.colors.blueish};
             color: ${theme.darkcolors.components.input.text};
             transition: 3s;
           }
           input:focus {
-            box-shadow: 0 0 15px ${theme.colors.turquoise};
+            box-shadow: 0 0 15px ${theme.colors.blueish};
             transition: 0.5s;
           }
 
           .challenge-container {
             margin: 30px 0 30px 0;
-            border: 1px solid #0a6d6199;
+            border: 1px solid ${theme.darkcolors.blueish_darker};
             border-radius: 5px 15px 5px 5px;
             padding: 15px 5px;
             .challenge-inputs {
@@ -941,9 +952,9 @@ export default function GlobalStyle() {
                   }
                 }
                 input:checked+label {
-                  border: 1px solid ${theme.colors.turquoise};
-                  color: ${theme.colors.turquoise};
-                  box-shadow: 0 0 5px ${theme.colors.turquoise};
+                  border: 1px solid ${theme.colors.blueish};
+                  color: ${theme.colors.blueish};
+                  box-shadow: 0 0 5px ${theme.colors.blueish};
                 }
 
               }
@@ -981,14 +992,14 @@ export default function GlobalStyle() {
                   box-shadow: 0 0 5px white;
               }
               .state-button.state-button-fulfilled input:checked+label {
-                  border: 1px solid ${theme.colors.turquoise};
-                  color: ${theme.colors.turquoise};
-                  box-shadow: 0 0 5px ${theme.colors.turquoise};
+                  border: 1px solid ${theme.colors.blueish};
+                  color: ${theme.colors.blueish};
+                  box-shadow: 0 0 5px ${theme.colors.blueish};
               }
               .state-button.state-button-failed input:checked+label {
-                  border: 1px solid ${theme.colors.fuchsia};
-                  color: ${theme.colors.fuchsia};
-                  box-shadow: 0 0 5px ${theme.colors.fuchsia};
+                  border: 1px solid ${theme.colors.reddish};
+                  color: ${theme.colors.reddish};
+                  box-shadow: 0 0 5px ${theme.colors.reddish};
               }
 
             }
@@ -1004,7 +1015,7 @@ export default function GlobalStyle() {
           font-weight: bold;
           letter-spacing: 0.1em;
           animation: glitch-skew 1s infinite linear alternate-reverse;
-          text-shadow: 0 0 15px ${theme.colors.fuchsia}, 0 0 3px #fff;
+          text-shadow: 0 0 15px ${theme.colors.reddish}, 0 0 3px #fff;
         }
         span.glitch::before {
           content: attr(data-text);
@@ -1013,7 +1024,7 @@ export default function GlobalStyle() {
           width: 100%;
           height: 100%;
           left: 2px;
-          text-shadow: -2px 0 ${theme.colors.fuchsia}, 0 0 3px ${theme.colors.turquoise};
+          text-shadow: -2px 0 ${theme.colors.reddish}, 0 0 3px ${theme.colors.blueish};
           clip: rect(44px, 450px, 56px, 0);
           animation: glitch-anim 5s infinite linear alternate-reverse;
         }
@@ -1025,7 +1036,7 @@ export default function GlobalStyle() {
           width: 100%;
           height: 100%;
           left: -2px;
-          text-shadow: -2px 0 ${theme.colors.turquoise}, 2px 2px ${theme.colors.fuchsia};
+          text-shadow: -2px 0 ${theme.colors.blueish}, 2px 2px ${theme.colors.reddish};
           animation: glitch-anim2 1s infinite linear alternate-reverse;
         }
 
@@ -1261,22 +1272,22 @@ export default function GlobalStyle() {
           animation-name: shine;
           animation-duration: 15s;
           animation-iteration-count: infinite;
-          text-shadow: 0 0 0 #0cffe166;
+          text-shadow: 0 0 0 ${theme.colors.blueish_variant_2};
           ${'' /* -webkit-text-stroke: 1px #ffffff11; */}
         }
 
         @-webkit-keyframes shine {
           0%, 10% {
             background-position: 200px;
-            text-shadow: 0 0 0 #0cffe166;
+            text-shadow: 0 0 0 ${theme.colors.blueish_variant_2};
             transform: skew(0deg);
           }
           50% {
-            text-shadow: 0 0 0 #0cffe188;
+            text-shadow: 0 0 0 ${theme.colors.blueish};
             transform: skew(-10deg);
           }
           75% {
-            text-shadow: 0 0 0 #0cffe166;
+            text-shadow: 0 0 0 ${theme.colors.blueish_variant_2};
             transform: skew(-5deg);
           }
           100% {
@@ -1295,8 +1306,8 @@ export default function GlobalStyle() {
             text-shadow: 0 0 6px #444;
           }
           a {
-            text-shadow: 0 0 5px ${theme.colors.turquoise};
-            color: ${theme.colors.turquoise};
+            text-shadow: 0 0 5px ${theme.colors.blueish};
+            color: ${theme.colors.blueish};
           }
           blockquote {
             font-size: 0.8em;
@@ -1313,7 +1324,7 @@ export default function GlobalStyle() {
               padding: 5px 6px 4px 9px;
               font-family: 'EuroStyle';
               font-weight: bold;
-              border: 1px solid ${theme.colors.turquoise};
+              border: 1px solid ${theme.colors.blueish};
               border-radius: 3px 0 0 3px;
               min-height: 35px;
               font-size: 1em;
@@ -1321,23 +1332,23 @@ export default function GlobalStyle() {
               transition: 1s;
             }
             .oracle-result.toggled {
-              box-shadow: inset 0 0 15px ${theme.colors.turquoise};
-              text-shadow: 0 0 15px ${theme.colors.fuchsia};
-              color: ${theme.colors.fuchsia};
+              box-shadow: inset 0 0 15px ${theme.colors.blueish};
+              text-shadow: 0 0 15px ${theme.colors.reddish};
+              color: ${theme.colors.reddish};
             }
             button.randomize-button {
-              border: 2px solid ${theme.colors.fuchsia};
+              border: 2px solid ${theme.colors.reddish};
               overflow: hidden;
               background-color: #000;
               min-height: 35px;
               width: 25%;
               padding: 5px 10px;
-              color: ${theme.colors.fuchsia};
+              color: ${theme.colors.reddish};
               font-family: 'EuroStyle';
               font-weight: bold;
               font-size: 0.6em;
               letter-spacing: 0.1em;
-              box-shadow: inset 0 0 10px ${theme.colors.fuchsia};
+              box-shadow: inset 0 0 10px ${theme.colors.reddish};
               border-radius: 0 10px 10px 0;
               transition: 0.2s;
               :before {
@@ -1353,9 +1364,9 @@ export default function GlobalStyle() {
                 }
               }
               :active {
-                box-shadow: inset 0 0 20px ${theme.colors.fuchsia}, 5px 0 15px ${theme.colors.fuchsia};
+                box-shadow: inset 0 0 20px ${theme.colors.reddish}, 5px 0 15px ${theme.colors.reddish};
                 color: #fff;
-                text-shadow: 0 0 5px ${theme.colors.fuchsia};
+                text-shadow: 0 0 5px ${theme.colors.reddish};
               }
 
             }
@@ -1370,23 +1381,23 @@ export default function GlobalStyle() {
           button#export, input#import {
             width: 100%;
             margin: 10px 0 20px 0;
-            border: 2px solid ${theme.colors.fuchsia};
+            border: 2px solid ${theme.colors.reddish};
             overflow: hidden;
             background-color: #000;
             min-height: 35px;
             padding: 5px 10px;
-            color: ${theme.colors.fuchsia};
+            color: ${theme.colors.reddish};
             font-family: 'EuroStyle';
             font-weight: bold;
             font-size: 0.6em;
             letter-spacing: 0.1em;
-            box-shadow: inset 0 0 10px ${theme.colors.fuchsia};
+            box-shadow: inset 0 0 10px ${theme.colors.reddish};
             border-radius: 5px;
             transition: 0.2s;
             :active {
-              box-shadow: inset 0 0 20px ${theme.colors.fuchsia}, 5px 0 15px ${theme.colors.fuchsia};
+              box-shadow: inset 0 0 20px ${theme.colors.reddish}, 5px 0 15px ${theme.colors.reddish};
               color: #fff;
-              text-shadow: 0 0 5px ${theme.colors.fuchsia};
+              text-shadow: 0 0 5px ${theme.colors.reddish};
             }
           }
           blockquote {
@@ -1408,7 +1419,7 @@ export default function GlobalStyle() {
           button:after {
             visibility: visible;
             content: 'EXAMPLE';
-            color: ${theme.colors.turquoise};
+            color: ${theme.colors.blueish};
             font-style: italic;
             font-family: 'EuroStyle';
             letter-spacing: 0.2em;

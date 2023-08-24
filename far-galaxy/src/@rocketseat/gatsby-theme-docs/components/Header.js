@@ -4,6 +4,9 @@ import styled from '@emotion/styled';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useStaticQuery, graphql } from 'gatsby';
 
+// Path to the logo file on your project
+import fargalaxylogo from './assets/far-galaxy-logo.png';
+
 const Container = styled.header`
   display: flex;
   justify-content: flex-start;
@@ -24,11 +27,11 @@ const Container = styled.header`
     span.white {
       color: #fff;
     }
-    span.turquoise {
-      color: #0cffe1;
+    span.blueish {
+      color: #22e3ffff;
     }
-    span.fuchsia {
-      color: #ff0096;
+    span.reddish {
+      color: #e62a00ff;
     }
   }
 
@@ -69,17 +72,8 @@ export default function Header({ handleMenuOpen }) {
       <button aria-label="Open sidebar" type="button" onClick={handleMenuOpen}>
         <GiHamburgerMenu size={23} aria-hidden="true" />
       </button>
-      {/* <h2>{siteTitle}</h2> */}
       <h2>
-        <span class="fuchsia">cy</span>
-        <span class="white">.</span>
-        <span class="fuchsia">br</span>
-        <span class="white">/</span>
-        <span class="turquoise">dys</span>
-        <span class="white">.</span>
-        <span class="turquoise">top</span>
-        <span class="white">.</span>
-        <span class="turquoise">ia</span>
+        <img src={fargalaxylogo}/>
       </h2>
     </Container>
   );

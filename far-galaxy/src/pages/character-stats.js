@@ -74,7 +74,7 @@ function CharacterStats() {
           <div class="stats-container">
             <div class="stat-container">
               <div class="left-col">
-                <label class="stat">BRAIN <input type="number" name="brain" value={inputs.brain || ""} onChange={handleChange} min="1" max="99" /></label>
+                <label class="stat">SMARTS <input type="number" name="smarts" value={inputs.smarts || ""} onChange={handleChange} min="1" max="99" /></label>
               </div>
               <div class="right-col">
                 <span class="stat-desc">cunning and knowledge</span>
@@ -83,7 +83,7 @@ function CharacterStats() {
 
             <div class="stat-container">
               <div class="left-col">
-                <label class="stat">CHROME <input type="number" name="chrome" value={inputs.chrome || ""} onChange={handleChange} min="1" max="99"/></label>
+                <label class="stat">MIGHT <input type="number" name="might" value={inputs.might || ""} onChange={handleChange} min="1" max="99"/></label>
               </div>
               <div class="right-col">
                 <span class="stat-desc">strength and endurance</span>
@@ -92,7 +92,7 @@ function CharacterStats() {
 
             <div class="stat-container">
               <div class="left-col">
-                <label class="stat">EDGE <input type="number" name="edge" value={inputs.edge || ""} onChange={handleChange} min="1" max="99"/></label>
+                <label class="stat">SWIFT <input type="number" name="swift" value={inputs.swift || ""} onChange={handleChange} min="1" max="99"/></label>
               </div>
               <div class="right-col">
                 <span class="stat-desc">speed and precision</span>
@@ -101,7 +101,7 @@ function CharacterStats() {
 
             <div class="stat-container">
               <div class="left-col">
-                <label class="stat">FLASH <input type="number" name="flash" value={inputs.flash || ""} onChange={handleChange} min="1" max="99"/></label>
+                <label class="stat">CHARM <input type="number" name="charm" value={inputs.charm || ""} onChange={handleChange} min="1" max="99"/></label>
               </div>
               <div class="right-col">
                 <span class="stat-desc">personality and empathy</span>
@@ -110,7 +110,7 @@ function CharacterStats() {
 
             <div class="stat-container">
               <div class="left-col">
-                <label class="stat">SHADE <input type="number" name="shade" value={inputs.shade || ""} onChange={handleChange} min="1" max="99"/></label>
+                <label class="stat">GUILE <input type="number" name="guile" value={inputs.guile || ""} onChange={handleChange} min="1" max="99"/></label>
               </div>
               <div class="right-col">
                 <span class="stat-desc">deception and stealth</span>

@@ -2462,7 +2462,7 @@ const characterOracleResults = {
         "exhibitionist, tease, clear vinyl raincoat",
         "Fat, confident, well-mannered, Mao suits",
         "Geisha-chic, teenage fashion, dark eyed, cold",
-        "Deep turquoise leather coat, friendly",
+        "Deep blueish leather coat, friendly",
         "Impeccably dressed, punctual, vindictive",
         "Neo-romantic floppy fringe, tux, relaxed",
         "Nervous, cautious, trenchcoat, greasy hair",
