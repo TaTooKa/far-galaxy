@@ -12,6 +12,7 @@ export default {
     blueish_variant_3: `#1061c6ff`,
     reddish: `#e62a00ff`, 
     reddish_darker: `#79090bff`,
+    gold: `#ffec00ff`,
     components: {
       blockquote: {
         background: `#939dae`,

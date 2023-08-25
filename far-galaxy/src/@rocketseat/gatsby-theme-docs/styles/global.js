@@ -158,6 +158,11 @@ export default function GlobalStyle() {
             -webkit-text-stroke: 1px ${theme.colors.reddish_darker};
         }
 
+        .gold {
+            color: ${theme.colors.gold};
+            -webkit-text-stroke: 1px ${theme.colors.reddish_darker};
+        }
+
         .bold {
             font-weight: bold;
         }
@@ -189,7 +194,7 @@ export default function GlobalStyle() {
         a {
           color: ${theme.colors.text};
           font-weight: bold;
-          text-decoration-style: dotted;
+          text-decoration-style: dashed;
           text-decoration-color: ${theme.colors.blueish_variant_1};
           transition: 0.5s;
           text-shadow: 0 0 10px #22e3ffff, 2px 2px 5px #000;
