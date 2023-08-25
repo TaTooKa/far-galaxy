@@ -190,7 +190,7 @@ export default function GlobalStyle() {
           color: ${theme.colors.text};
           font-weight: bold;
           text-decoration-style: dotted;
-          text-decoration-color: ${theme.colors.reddish};
+          text-decoration-color: ${theme.colors.blueish_variant_3};
           transition: 0.5s;
 
           &:hover {
