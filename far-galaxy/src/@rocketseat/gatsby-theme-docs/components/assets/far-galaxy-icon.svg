@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1005"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="far-galaxy-icon.svg"
+   inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1007"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0935553"
+     inkscape:cx="264.2756"
+     inkscape:cy="389.09782"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1002">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient13676">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop13672" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop13674" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9958-7">
+      <stop
+         style="stop-color:#00114d;stop-opacity:1"
+         offset="0"
+         id="stop9954" />
+      <stop
+         style="stop-color:#ff0024;stop-opacity:1"
+         offset="1"
+         id="stop9956" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1452">
+      <stop
+         style="stop-color:#352539;stop-opacity:1"
+         offset="0"
+         id="stop1448" />
+      <stop
+         style="stop-color:#ffec00;stop-opacity:1"
+         offset="1"
+         id="stop1450" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3617"
+       id="linearGradient3621"
+       x1="78.848053"
+       y1="13.283257"
+       x2="78.848053"
+       y2="-2.554472"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1580347,0,0,1.1580347,48.38279,93.202196)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3617">
+      <stop
+         style="stop-color:#332572;stop-opacity:1"
+         offset="0"
+         id="stop3613" />
+      <stop
+         style="stop-color:#d3b65f;stop-opacity:1"
+         offset="1"
+         id="stop3615" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1452"
+       id="linearGradient1454"
+       x1="110.96023"
+       y1="99.655838"
+       x2="110.96023"
+       y2="106.84132"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1967057,0,0,1.1967057,3.6786671,-20.059874)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1452"
+       id="linearGradient922"
+       gradientUnits="userSpaceOnUse"
+       x1="110.96023"
+       y1="99.655838"
+       x2="110.96023"
+       y2="106.84132"
+       gradientTransform="matrix(1.1624831,0,0,1.1624831,-15.11969,-0.16148981)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3617"
+       id="linearGradient924"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1249179,0,0,1.1249179,28.306011,109.86157)"
+       x1="78.848053"
+       y1="13.283257"
+       x2="78.848053"
+       y2="-2.554472" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9958-7"
+       id="linearGradient9960"
+       x1="97.753708"
+       y1="129.50978"
+       x2="97.753708"
+       y2="54.062202"
+       gradientUnits="userSpaceOnUse" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask18064">
+      <ellipse
+         style="opacity:0.119107;fill:url(#linearGradient18068);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.590841;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="ellipse18066"
+         cx="90.331787"
+         cy="84.111092"
+         rx="94.361015"
+         ry="34.951885" />
+    </mask>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13676"
+       id="linearGradient18068"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2621311,0,0,0.88683502,-23.678773,10.525731)"
+       x1="95.977524"
+       y1="115.13883"
+       x2="95.977524"
+       y2="74.250008" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13676"
+       id="linearGradient19138"
+       x1="46.811382"
+       y1="94.057571"
+       x2="133.51004"
+       y2="94.057571"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB;"
+       id="filter20138"
+       x="-0.28056567"
+       y="-0.28056567"
+       width="1.6780337"
+       height="1.6780337">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur20130" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136" />
+    </filter>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-5"
+       x="-0.2685519"
+       y="-0.2685519"
+       width="1.6540062"
+       height="1.6540062">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-4" />
+      <feGaussianBlur
+         stdDeviation="2.8715406"
+         result="blur"
+         id="feGaussianBlur20130-4" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-8" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-8" />
+    </filter>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-5-4"
+       x="-0.41464168"
+       y="-0.41464168"
+       width="1.9461857"
+       height="1.9461857">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-4-8" />
+      <feGaussianBlur
+         stdDeviation="4.4336322"
+         result="blur"
+         id="feGaussianBlur20130-4-7" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-6-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-8-8" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-8-4" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask18064-1">
+      <ellipse
+         style="opacity:0.119107;fill:url(#linearGradient18068);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.590841;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="ellipse18066-4"
+         cx="90.331787"
+         cy="84.111092"
+         rx="94.361015"
+         ry="34.951885" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask23879">
+      <g
+         id="g23887"
+         transform="matrix(1.3644089,0,0,1.3644089,-32.818115,-29.253511)">
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138);stop-color:#000000"
+           id="circle23881"
+           cx="90.160713"
+           cy="68.775345"
+           r="12.831221" />
+        <circle
+           style="opacity:0.576112;fill:#ff6632;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-5);stop-color:#000000"
+           id="circle23883"
+           cx="89.956276"
+           cy="68.543892"
+           r="12.831221"
+           transform="rotate(84.424693,89.956276,68.543892)" />
+        <circle
+           style="opacity:0.238876;mix-blend-mode:normal;fill:#ffe711;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-5-4);stop-color:#000000"
+           id="circle23885"
+           cx="89.956276"
+           cy="68.543892"
+           r="12.831221"
+           transform="rotate(48.066695,89.956276,68.543892)" />
+      </g>
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask23879-2">
+      <g
+         id="g23887-5"
+         transform="matrix(1.3644089,0,0,1.3644089,-32.818115,-29.253511)">
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-55);stop-color:#000000"
+           id="circle23881-0"
+           cx="90.160713"
+           cy="68.775345"
+           r="12.831221" />
+        <circle
+           style="opacity:0.576112;fill:#ff6632;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-5-7);stop-color:#000000"
+           id="circle23883-0"
+           cx="89.956276"
+           cy="68.543892"
+           r="12.831221"
+           transform="rotate(84.424693,89.956276,68.543892)" />
+        <circle
+           style="opacity:0.238876;mix-blend-mode:normal;fill:#ffe711;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-5-4-5);stop-color:#000000"
+           id="circle23885-8"
+           cx="89.956276"
+           cy="68.543892"
+           r="12.831221"
+           transform="rotate(48.066695,89.956276,68.543892)" />
+      </g>
+    </mask>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-55"
+       x="-0.28056567"
+       y="-0.28056567"
+       width="1.6780337"
+       height="1.6780337">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-5" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur20130-0" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-0" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-5" />
+    </filter>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-5-7"
+       x="-0.2685519"
+       y="-0.2685519"
+       width="1.6540062"
+       height="1.6540062">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-4-6" />
+      <feGaussianBlur
+         stdDeviation="2.8715406"
+         result="blur"
+         id="feGaussianBlur20130-4-0" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-6-0" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-8-0" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-8-6" />
+    </filter>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-5-4-5"
+       x="-0.41464168"
+       y="-0.41464168"
+       width="1.9461857"
+       height="1.9461857">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-4-8-4" />
+      <feGaussianBlur
+         stdDeviation="4.4336322"
+         result="blur"
+         id="feGaussianBlur20130-4-7-7" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-6-3-1" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-8-8-8" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-8-4-5" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask18064-1-9">
+      <ellipse
+         style="opacity:0.119107;fill:url(#linearGradient18068);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.590841;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="ellipse18066-4-9"
+         cx="90.331787"
+         cy="84.111092"
+         rx="94.361015"
+         ry="34.951885" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask23879-2-4">
+      <g
+         id="g23887-5-3"
+         transform="matrix(1.3644089,0,0,1.3644089,-32.818115,-29.253511)">
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-55-9);stop-color:#000000"
+           id="circle23881-0-6"
+           cx="90.160713"
+           cy="68.775345"
+           r="12.831221" />
+        <circle
+           style="opacity:0.576112;fill:#ff6632;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-5-7-9);stop-color:#000000"
+           id="circle23883-0-3"
+           cx="89.956276"
+           cy="68.543892"
+           r="12.831221"
+           transform="rotate(84.424693,89.956276,68.543892)" />
+        <circle
+           style="opacity:0.238876;mix-blend-mode:normal;fill:#ffe711;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter20138-5-4-5-6);stop-color:#000000"
+           id="circle23885-8-0"
+           cx="89.956276"
+           cy="68.543892"
+           r="12.831221"
+           transform="rotate(48.066695,89.956276,68.543892)" />
+      </g>
+    </mask>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-55-9"
+       x="-0.28056567"
+       y="-0.28056567"
+       width="1.6780337"
+       height="1.6780337">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-5-1" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur20130-0-4" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-7-1" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-0-2" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-5-2" />
+    </filter>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-5-7-9"
+       x="-0.2685519"
+       y="-0.2685519"
+       width="1.6540062"
+       height="1.6540062">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-4-6-7" />
+      <feGaussianBlur
+         stdDeviation="2.8715406"
+         result="blur"
+         id="feGaussianBlur20130-4-0-2" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-6-0-4" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-8-0-3" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-8-6-3" />
+    </filter>
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter20138-5-4-5-6"
+       x="-0.41464168"
+       y="-0.41464168"
+       width="1.9461857"
+       height="1.9461857">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset20128-4-8-4-9" />
+      <feGaussianBlur
+         stdDeviation="4.4336322"
+         result="blur"
+         id="feGaussianBlur20130-4-7-7-9" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood20132-6-3-1-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite20134-8-8-8-2" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend20136-8-4-5-3" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask18064-1-9-6">
+      <ellipse
+         style="opacity:0.119107;fill:url(#linearGradient18068);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.590841;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="ellipse18066-4-9-0"
+         cx="90.331787"
+         cy="84.111092"
+         rx="94.361015"
+         ry="34.951885" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask18064-6">
+      <ellipse
+         style="opacity:0.119107;fill:url(#linearGradient18068);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.590841;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="ellipse18066-7"
+         cx="90.331787"
+         cy="84.111092"
+         rx="94.361015"
+         ry="34.951885" />
+    </mask>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter31083"
+       x="-0.035754227"
+       y="-0.10035692"
+       width="1.0690223"
+       height="1.200263">
+      <feFlood
+         flood-opacity="0.231373"
+         flood-color="rgb(250,245,137)"
+         result="flood"
+         id="feFlood31073" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite31075" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur31077" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset31079" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite31081" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask18064-6-1">
+      <ellipse
+         style="opacity:0.119107;fill:url(#linearGradient18068);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.590841;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="ellipse18066-7-0"
+         cx="90.331787"
+         cy="84.111092"
+         rx="94.361015"
+         ry="34.951885" />
+    </mask>
+    <filter
+       id="mask-powermask-path-effect31469_inverse"
+       inkscape:label="filtermask-powermask-path-effect31469"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect31469_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect31469_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask18064-6-1-2">
+      <ellipse
+         style="opacity:0.119107;fill:url(#linearGradient18068);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.590841;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="ellipse18066-7-0-3"
+         cx="90.331787"
+         cy="84.111092"
+         rx="94.361015"
+         ry="34.951885" />
+    </mask>
+    <filter
+       id="mask-powermask-path-effect31727_inverse"
+       inkscape:label="filtermask-powermask-path-effect31727"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect31727_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect31727_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="mask-powermask-path-effect31761_inverse"
+       inkscape:label="filtermask-powermask-path-effect31761"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect31761_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect31761_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="mask-powermask-path-effect31775_inverse"
+       inkscape:label="filtermask-powermask-path-effect31775"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect31775_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect31775_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="mask-powermask-path-effect31879_inverse"
+       inkscape:label="filtermask-powermask-path-effect31879"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect31879_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect31879_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask31947">
+      <g
+         id="g31953"
+         style="opacity:0.238876;mix-blend-mode:color-dodge;fill:#ffffff;fill-opacity:1"
+         mask="url(#mask23879-2-4)"
+         transform="matrix(-1.3354619,0,0,-1.3354619,209.54042,247.96735)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+           id="rect31949"
+           width="86.698662"
+           height="86.698662"
+           x="46.811382"
+           y="69.052162"
+           rx="3.3436117"
+           ry="3.232425" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+           id="rect31951"
+           width="86.698662"
+           height="86.698662"
+           x="46.811382"
+           y="69.052162"
+           rx="3.3436117"
+           ry="3.232425"
+           mask="url(#mask18064-1-9-6)" />
+      </g>
+    </mask>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g23312"
+       inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:url(#linearGradient9960);fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000;fill-opacity:1"
+         id="rect9090"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425" />
+      <rect
+         style="fill:url(#linearGradient19138);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000;opacity:1"
+         id="rect9090-5"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425"
+         mask="url(#mask18064)" />
+    </g>
+    <g
+       id="g23312-7"
+       style="opacity:0.264637;mix-blend-mode:color-burn;fill:#000000;fill-opacity:1"
+       inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-0"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425" />
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-5-1"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425"
+         mask="url(#mask18064-6)" />
+    </g>
+    <g
+       id="g23312-7-1"
+       style="opacity:0.264637;mix-blend-mode:color-burn;fill:#000000;fill-opacity:1"
+       inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-0-0"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425" />
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-5-1-0"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425"
+         mask="url(#mask18064-6-1)" />
+    </g>
+    <g
+       id="g23312-7-1-0"
+       style="opacity:0.66510539;mix-blend-mode:color-dodge;fill:#ffffff;fill-opacity:1"
+       mask="url(#mask31947)"
+       inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-0-0-4"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425"
+         sodipodi:type="rect"
+         d="m 50.154994,69.052162 h 80.011436 c 1.85236,0 3.34361,1.441662 3.34361,3.232425 V 152.5184 c 0,1.79076 -1.49125,3.23242 -3.34361,3.23242 H 50.154994 c -1.852361,0 -3.343612,-1.44166 -3.343612,-3.23242 V 72.284587 c 0,-1.790763 1.491251,-3.232425 3.343612,-3.232425 z" />
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-5-1-0-3"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425"
+         mask="url(#mask18064-6-1-2)"
+         sodipodi:type="rect"
+         d="m 50.154994,69.052162 h 80.011436 c 1.85236,0 3.34361,1.441662 3.34361,3.232425 V 152.5184 c 0,1.79076 -1.49125,3.23242 -3.34361,3.23242 H 50.154994 c -1.852361,0 -3.343612,-1.44166 -3.343612,-3.23242 V 72.284587 c 0,-1.790763 1.491251,-3.232425 3.343612,-3.232425 z" />
+    </g>
+    <g
+       id="g23312-6"
+       style="opacity:1;mix-blend-mode:overlay;fill:#ffffff;fill-opacity:1"
+       mask="url(#mask23879)"
+       inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-4"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-5-0"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425"
+         mask="url(#mask18064-1)" />
+    </g>
+    <g
+       id="g23312-6-2"
+       style="mix-blend-mode:color-dodge;fill:#ffffff;fill-opacity:1;opacity:0.17798595"
+       mask="url(#mask23879-2)"
+       inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-4-5"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.4;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9090-5-0-6"
+         width="86.698662"
+         height="86.698662"
+         x="46.811382"
+         y="69.052162"
+         rx="3.3436117"
+         ry="3.232425"
+         mask="url(#mask18064-1-9)" />
+    </g>
+    <g
+       id="g30591"
+       style="filter:url(#filter31083)"
+       inkscape:export-filename="C:\Users\TaTooKa\code\far-galaxy\far-galaxy\src\@rocketseat\gatsby-theme-docs\components\assets\far-galaxy-icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.8621px;line-height:1.25;font-family:'SF Distant Galaxy';-inkscape-font-specification:'SF Distant Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient1454);fill-opacity:1;stroke:#000000;stroke-width:1.19551;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         x="69.758842"
+         y="109.75941"
+         id="text3897-8"
+         inkscape:export-filename="C:\Users\TaTooKa\Downloads\far-galaxy-logo.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan3895-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.8621px;font-family:'SF Distant Galaxy';-inkscape-font-specification:'SF Distant Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient1454);fill-opacity:1;stroke:#000000;stroke-width:1.19551;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="69.758842"
+           y="109.75941">far</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.8621px;line-height:1.25;font-family:'SF Distant Galaxy Outline';-inkscape-font-specification:'SF Distant Galaxy Outline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient3621);fill-opacity:1;stroke:none;stroke-width:0.357815;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.520588;paint-order:markers fill stroke"
+         x="69.81002"
+         y="109.75938"
+         id="text3897"
+         inkscape:export-filename="C:\Users\TaTooKa\Downloads\far-galaxy-logo.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan3895"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.8621px;font-family:'SF Distant Galaxy Outline';-inkscape-font-specification:'SF Distant Galaxy Outline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient3621);fill-opacity:1;stroke:none;stroke-width:0.357815;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.520588;paint-order:markers fill stroke"
+           x="69.81002"
+           y="109.75938">far</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3512px;line-height:1.25;font-family:'SF Distant Galaxy';-inkscape-font-specification:'SF Distant Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient922);fill-opacity:1;stroke:#000000;stroke-width:1.16132;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         x="49.070759"
+         y="125.94529"
+         id="text3897-8-9"
+         inkscape:export-filename="C:\Users\TaTooKa\Downloads\far-galaxy-logo.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan3895-5-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3512px;font-family:'SF Distant Galaxy';-inkscape-font-specification:'SF Distant Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient922);fill-opacity:1;stroke:#000000;stroke-width:1.16132;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="49.070759"
+           y="125.94529">galaxy</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3512px;line-height:1.25;font-family:'SF Distant Galaxy Outline';-inkscape-font-specification:'SF Distant Galaxy Outline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient924);fill-opacity:1;stroke:none;stroke-width:0.347583;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.520588;paint-order:markers fill stroke"
+         x="49.120483"
+         y="125.94528"
+         id="text3897-89"
+         inkscape:export-filename="C:\Users\TaTooKa\Downloads\far-galaxy-logo.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan3895-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3512px;font-family:'SF Distant Galaxy Outline';-inkscape-font-specification:'SF Distant Galaxy Outline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient924);fill-opacity:1;stroke:none;stroke-width:0.347583;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.520588;paint-order:markers fill stroke"
+           x="49.120483"
+           y="125.94528">galaxy</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -649,19 +649,19 @@ export default function GlobalStyle() {
                 }
             }
 
-            .angle-container {
+            .obligation-container {
                 margin: 30px 0 20px 0;
-                .angle-header {
+                .obligation-header {
                     display: flex;
-                    .angle-title {
+                    .obligation-title {
                         display: block;
-                        width: 30%;
+                        width: 55%;
                         font-size: 1.3em;
                         float: left;
                     }
-                    .angle-progress {
+                    .obligation-progress {
                         display: flex;
-                        width: 60%;
+                        width: 45%;
                         float: right;
                         font-size: 1em;
                         margin: 3px 0 0 auto;
@@ -673,7 +673,7 @@ export default function GlobalStyle() {
                         }
                     }
                 }
-                .angle-options {
+                .obligation-options {
                     margin: 10px 0 0 0;
                     .columns {
                         display: flex;
@@ -702,6 +702,41 @@ export default function GlobalStyle() {
                         border-radius: 15px;
                         transition: 0.5s;
                     }
+                }
+                .obligation-description-container {
+                  margin: 10px 0 20px 0;
+                  display: flex;
+                  width: 100%;
+                  background-color: ${theme.darkcolors.components.input.background};
+                  border: 1px solid #444;
+                  border-radius: 0 0 15px 15px;
+                  box-shadow: inset 0 0 5px #000;
+
+                  span#obligationDescription {
+                    display: flex;
+                    padding: 5px 10px;
+                    font-family: 'EuroStyle';
+                    font-weight: bold;
+                    min-height: 35px;
+                    font-size: 0.7em;
+                    color: ${theme.darkcolors.components.input.text};
+                    transition: 1s;
+                  }
+                }
+                .obligation-notes-container {
+                  margin: 10px 0 20px 0;
+                  width: 100%;
+                  label {
+                      display: block;
+                      font-size: 0.8em;
+                      textarea {
+                          display: block;
+                          margin: 10px 0 0 0;
+                          width: 100%;
+                          min-height: 100px;
+                          min-width: 100%;
+                      }
+                  }
                 }
             }
             
