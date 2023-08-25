@@ -10,17 +10,17 @@ const useStyles = makeStyles((theme) => ({
         bottom: '2vh',
         backgroundColor: '#000',
         color: 'black',
-        boxShadow: '0 0 5px #0cffe1',
+        boxShadow: '0 0 5px #095979ff',
         transition: '0.8s',
         "&:hover, &.Mui-focusVisible": {
             transition: '0.3s',
             color: '#397BA6',
-            backgroundColor: '#0cffe1ff',
-            boxShadow: '0 0 20px #0cffe1',
+            backgroundColor: '#22e3ffff',
+            boxShadow: '0 0 20px #1061c6ff',
         },
         [theme.breakpoints.up('xs')]: {
             right: '5%',
-            backgroundColor: '#0cffe166',
+            backgroundColor: '#095979ff',
         },
         [theme.breakpoints.up('lg')]: {
             right: '6.5%',
