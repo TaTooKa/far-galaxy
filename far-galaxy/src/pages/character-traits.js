@@ -2,6 +2,23 @@ import React, { useState, useEffect, Component } from "react"
 import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 import Seo from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 
+import bothan_art from '/src/images/bothan.jpg';
+import cerean_art from '/src/images/cerean.jpg';
+import duros_art from '/src/images/duros.jpg';
+import human_art from '/src/images/human.jpg';
+import ithorian_art from '/src/images/ithorian.jpg';
+import keldor_art from '/src/images/keldor.jpg';
+import mirialan_art from '/src/images/mirialan.jpg';
+import moncalamari_art from '/src/images/moncalamari.jpg';
+import nautolan_art from '/src/images/nautolan.jpg';
+import sullustan_art from '/src/images/sullustan.jpg';
+import rodian_art from '/src/images/rodian.jpg';
+import togruta_art from '/src/images/togruta.jpg';
+import trandoshan_art from '/src/images/trandoshan.jpg';
+import twilek_art from '/src/images/twilek.jpg';
+import wookie_art from '/src/images/wookie.jpg';
+import zabrak_art from '/src/images/zabrak.jpg';
+
 import blademaster_art from '/src/images/blademaster.jpg';
 import bountyhunter_art from '/src/images/bountyhunter.jpg';
 import brawler_art from '/src/images/brawler.jpg';
@@ -36,9 +53,9 @@ function CharacterStats() {
   const windowGlobal = typeof window !== 'undefined' && window
 
   const headings = [
+    {depth: 2, value: "SPECIES AND CULTURE"},
     {depth: 2, value: "SKILLS AND BACKGROUND"},
-    {depth: 2, value: "GEAR AND CYBERWARE"},
-    {depth: 2, value: "CONTACTS"},
+    {depth: 2, value: "GEAR AND TOOLS"},
 ]
 
   const [inputs, setInputs] = useState(() => {
@@ -104,6 +121,114 @@ function CharacterStats() {
       </div>
 
       <form class="character-traits">
+
+        <div class="traits-container" id="species-container">
+            <h2 id="species-and-culture">SPECIES AND CULTURE</h2>
+            <span class="species-note">(You can pick only one of this TRAIT TYPE, and only during character creation)</span>
+
+            <div class="trait species">
+                <input id="speciesBothan" type="checkbox" name="speciesBothan" value={inputs.speciesBothan} onChange={handleChange} defaultChecked={inputs.speciesBothan}/>
+                <label for="speciesBothan"> <span class="trait-name">BOTHAN</span>: Bothans are the galaxy's information brokers, adept at picking up on secrets or seeing things other species ignore. Gain a <span class="boost">BOOST</span> when attempting to <a href="/prompts/general-prompts#gather-information">GATHER INFORMATION</a> with <span class="stat">SMARTS</span> or when trying to <a href="/prompts/general-prompts#secure-an-advantage">SECURE AN ADVANTAGE</a> with <span class="stat">GUILE</span>.</label>
+                <img src={bothan_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesCerean" type="checkbox" name="speciesCerean" value={inputs.speciesCerean} onChange={handleChange} defaultChecked={inputs.speciesCerean}/>
+                <label for="speciesCerean"> <span class="trait-name">CEREAN</span>: Because of their binary brains, Cereans can simultaneously pursue multiple lines of thought and have extraordinary mental aptitude. The species is also known for attention to detail as well as a cultural tendency toward extended contemplation. Gain a <span class="boost">BOOST</span> whenever you test your <span class="stat">SMARTS</span>.</label>
+                <img src={cerean_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesDuros" type="checkbox" name="speciesDuros" value={inputs.speciesDuros} onChange={handleChange} defaultChecked={inputs.speciesDuros}/>
+                <label for="speciesDuros"> <span class="trait-name">DUROS</span>: The species most often celebrated as having granted the gift of hyperspace travel to the galaxy, Duros are revered as pilots, explorers, and navigators. Gain a <span class="boost">BOOST</span> in any action related to piloting or charting a course in space or hyperspace.</label>
+                <img src={duros_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesHuman" type="checkbox" name="speciesHuman" value={inputs.speciesHuman} onChange={handleChange} defaultChecked={inputs.speciesHuman}/>
+                <label for="speciesHuman"> <span class="trait-name">HUMAN</span>: Ubiquitous and dominant, humans are found throughout the galaxy. They are the least homogenous and most active species in known space. They are accepted almost everywhere and they are at least given the benefit of the doubt. Gain a <span class="boost">BOOST</span> whenever you test your <span class="stat">CHARM</span>.</label>
+                <img src={human_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesIthorian" type="checkbox" name="speciesIthorian" value={inputs.speciesIthorian} onChange={handleChange} defaultChecked={inputs.speciesIthorian}/>
+                <label for="speciesIthorian"> <span class="trait-name">ITHORIAN</span>: Ithorians are often considered the caretakers of the galaxy. Ithorian society is based on a spiritual
+connection to "Mother Jungle," the spirit of the rainforest-covered planet of Ithor. Ithorians have carried this collective mentality with them out into the stars, adapting their herdship concept to interstellar travel. Gain a <span class="boost">BOOST</span> to any attempt at pacifism, consensus or diplomacy before violence.</label>
+                <img src={ithorian_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesKelDor" type="checkbox" name="speciesKelDor" value={inputs.speciesKelDor} onChange={handleChange} defaultChecked={inputs.speciesKelDor}/>
+                <label for="speciesKelDor"> <span class="trait-name">KEL DOR</span>: Kel Dors must wear a specialized mask to breathe and see outside of their native planet. They treat oxygen as a dangerous atmosphere. However, Kel Dors may survive in vacuum for up to five minutes before suffering its effects. Additionally, Kel Dors have dark vision: Gain a <span class="boost">BOOST</span> for actions affected negatively by darkness. 
+</label>
+                <img src={keldor_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesMirialan" type="checkbox" name="speciesMirialan" value={inputs.speciesMirialan} onChange={handleChange} defaultChecked={inputs.speciesMirialan}/>
+                <label for="speciesMirialan"> <span class="trait-name">MIRIALAN</span>: Mirialans undergo ritual tattooing to represent the ways that they have overcome the obstacles that fate placed before them. Mirialans are typically faster and more agile than most other species. Gain a <span class="boost">BOOST</span> when you test your <span class="stat">SWIFT</span> for any action related to athletics or acrobatics.</label>
+                <img src={mirialan_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesMonCalamari" type="checkbox" name="speciesMonCalamari" value={inputs.speciesMonCalamari} onChange={handleChange} defaultChecked={inputs.speciesMonCalamari}/>
+                <label for="speciesMonCalamari"> <span class="trait-name">MON CALAMARI</span>: Natural amphibians, Mon Calamari can breathe and move freely underwater. The vast majority of Mon Calamari are altruistic hard workers, determined to defend what they believe is right. Gain a <span class="boost">BOOST</span> when you <a href="/prompts/recovery-prompts#heal">HEAL</a> or <a href="/prompts/recovery-prompts#relax">RELAX</a> with allies.</label>
+                <img src={moncalamari_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesNautolan" type="checkbox" name="speciesNautolan" value={inputs.speciesNautolan} onChange={handleChange} defaultChecked={inputs.speciesNautolan}/>
+                <label for="speciesNautolan"> <span class="trait-name">NAUTOLAN</span>: Nautolans can breathe and move freely underwater. Even though they are aquatic, they have little difficulty living in climates that would be uncomfortable for other amphibians.
+They also possess tendrils which act as their major sensory organs. These are so sensitive that they can sense odors and pheromones, which can allow an observant Nautolan some idea of a target's emotional state. Gain a <span class="boost">BOOST</span> whenever you <a href="/prompts/general-prompts#compel">COMPEL</a>. If underwater, gain a <span class="boost">BOOST</span> to any action that tests your <span class="stat">CHARM</span> or <span class="stat">SMARTS</span>.</label>
+                <img src={nautolan_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesSullustan" type="checkbox" name="speciesSullustan" value={inputs.speciesSullustan} onChange={handleChange} defaultChecked={inputs.speciesSullustan}/>
+                <label for="speciesSullustan"> <span class="trait-name">SULLUSTAN</span>: Born underground but with a yearning for the stars, most Sullustans find their way into space as pilots and astrogators. Affable, curious, and free-spirited, once a Sullustan has visited an area, they always remember how to return there -- they cannot get lost in a place that they have visited before. Gain a <span class="boost">BOOST</span> to any action related to finding your bearings in a place (or star sector) you've been before. Also gain a <span class="boost">BOOST</span> to any action related to astrogation or space piloting.</label>
+                <img src={sullustan_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesRodian" type="checkbox" name="speciesRodian" value={inputs.speciesRodian} onChange={handleChange} defaultChecked={inputs.speciesRodian}/>
+                <label for="speciesRodian"> <span class="trait-name">RODIAN</span>: Rodians are born to hunt, coming from a hostile world that breeds killer instincts. They tend to be violent, tenacious, and dedicated. Gain a <span class="boost">BOOST</span> when you <a href="/prompts/challenge-prompts#accept-a-challenge">ACCEPT A CHALLENGE</a> or <a href="/prompts/challenge-prompts#fulfill-a-challenge">FULFILL A CHALLENGE</a> related to a hunt, and whenever you use violence to subdue your prey. </label>
+                <img src={rodian_art} class="art"/>
+            </div>
+            
+            <div class="trait species">
+                <input id="speciesTogruta" type="checkbox" name="speciesTogruta" value={inputs.speciesTogruta} onChange={handleChange} defaultChecked={inputs.speciesTogruta}/>
+                <label for="speciesTogruta"> <span class="trait-name">TOGRUTA</span>: Togruta are natural pack hunters and work effectively in large groups. Every member of a community is expected to learn to work in concert with other members of the pack, contributing to everyone's overall success. Gain a <span class="boost">BOOST</span> in any action related to helping or supporting your allies. Additionally, if you ever have to <a href="/prompts/challenge-prompts#make-progress">MAKE PROGRESS</a> in a Challenge in which you are being actively helped by your allies, you can <b>MAKE PROGRESS</b> twice.</label>
+                <img src={togruta_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesTrandoshan" type="checkbox" name="speciesTrandoshan" value={inputs.speciesTrandoshan} onChange={handleChange} defaultChecked={inputs.speciesTrandoshan}/>
+                <label for="speciesTrandoshan"> <span class="trait-name">TRANDOSHAN</span>: Violent, brutal, and driven, the reptilian Trandoshans are known for their great strength and warlike natures. Many of these beings dedicate themselves to martial training, and some follow the path of the hunter on their native world. Gain a <span class="boost">BOOST</span> when you <a href="/prompts/general-prompts#act-under-pressure">ACT UNDER PRESSURE</a> or <a href="/prompts/general-prompts#clash">CLASH</a> with <span class="stat">MIGHT</span>.</label>
+                <img src={trandoshan_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesTwiLek" type="checkbox" name="speciesTwiLek" value={inputs.speciesTwiLek} onChange={handleChange} defaultChecked={inputs.speciesTwiLek}/>
+                <label for="speciesTwiLek"> <span class="trait-name">TWI'LEK</span>: These tall, thin humanoids are instantly recognizable by the tentacular “head-tails” (called lekku) that protrude from the backs of their heads. Sly, calculating beings, Twi'leks prefer to avoid trouble and stick to the shadows until an opportunity to act without undue danger to themselves presents itself. Their entrepreneurial spirit leads them to positions of influence. Gain a <span class="boost">BOOST</span> whenever you test your <span class="stat">GUILE</span>.</label>
+                <img src={twilek_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesWookie" type="checkbox" name="speciesWookie" value={inputs.speciesWookie} onChange={handleChange} defaultChecked={inputs.speciesWookie}/>
+                <label for="speciesWookie"> <span class="trait-name">WOOKIE</span>: Wookiees are widely recognized as one of the strongest and fiercest intelligent species in the galaxy. They have many customs and traditions that revolve around honor and loyalty, including the special bond called the honor family and the sacred pledge called the life debt.
+Gain a <span class="boost">BOOST</span> whenever you <a href="/prompts/general-prompts#secure-an-advantage">SECURE AN ADVANTAGE</a>, <a href="/prompts/general-prompts#compel">COMPEL</a> or <a href="/prompts/general-prompts#clash">CLASH</a> with <span class="stat">MIGHT</span>.
+</label>
+                <img src={wookie_art} class="art"/>
+            </div>
+
+            <div class="trait species">
+                <input id="speciesZabrak" type="checkbox" name="speciesZabrak" value={inputs.speciesZabrak} onChange={handleChange} defaultChecked={inputs.speciesZabrak}/>
+                <label for="speciesZabrak"> <span class="trait-name">ZABRAK</span>: Zabrak are easily distinguished by their vestigial horns. They are renowned for both their inherent confidence and their martial prowess. Zabrak are renowned for their self-assurance and independent natures. The harsh conditions of their homeworld, Iridonia, led to a particularly competitive and warlike nature in its inhabitants. Thus, study in martial arts is common throughout Zabrak cultures. Gain a <span class="boost">BOOST</span> when you <a href="/prompts/general-prompts#compel">COMPEL</a> with <span class="stat">MIGHT</span>. Additionally, you can test your <span class="stat">SWIFT</span> instead of <span class="stat">MIGHT</span> for close combat actions.
+</label>
+                <img src={zabrak_art} class="art"/>
+            </div>
+
+        </div>
 
         <div class="traits-container" id="skills-container">
             <h2 id="skills-and-background">SKILLS AND BACKGROUND</h2>

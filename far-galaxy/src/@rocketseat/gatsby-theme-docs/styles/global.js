@@ -778,6 +778,10 @@ export default function GlobalStyle() {
         }
 
         form.character-traits {
+          .species-note {
+            font-size: 0.8em;
+            opacity: 0.5;
+          }
           .trait {
             border: 1px solid ${theme.darkcolors.blueish_darker};
             margin: 10px 0 25px 0;
@@ -810,7 +814,7 @@ export default function GlobalStyle() {
 
               :checked {
                 border: 1px solid ${theme.colors.blueish};
-                box-shadow: inset 0 0 6px ${theme.colors.blueish}, inset 0 0 20px ${theme.colors.reddish}, 0 0 12px ${theme.colors.blueish};
+                box-shadow: inset 0 0 6px ${theme.colors.blueish}, inset 0 0 20px ${theme.colors.blueish_variant_2}, 0 0 12px ${theme.colors.blueish};
                 transform: translate(-8px, 0px);
               }
               :checked::before {
