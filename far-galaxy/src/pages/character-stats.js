@@ -109,7 +109,7 @@ function CharacterStats() {
 
             <div class="stat-container">
               <div class="left-col">
-                <label class="stat">CHARM <input type="number" name="charm" value={inputs.charm || ""} onChange={handleChange} min="1" max="99"/></label>
+                <label class="stat">ZEAL <input type="number" name="zeal" value={inputs.zeal || ""} onChange={handleChange} min="1" max="99"/></label>
               </div>
               <div class="right-col">
                 <span class="stat-desc">personality and empathy</span>

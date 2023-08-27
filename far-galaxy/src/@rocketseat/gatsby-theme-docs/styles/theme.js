@@ -10,8 +10,8 @@ export default {
     blueish_variant_1: `#94c4ffff`,
     blueish_variant_2: `#1b86edff`,
     blueish_variant_3: `#1061c6ff`,
-    reddish: `#e62a00ff`, 
-    reddish_darker: `#79090bff`,
+    reddish: `#e6004dff`, 
+    reddish_darker: `#bf0040ff`,
     gold: `#ffec00ff`,
     components: {
       blockquote: {
@@ -33,8 +33,8 @@ export default {
     text: `#ffffff`,
     blueish: `#22e3ffff`,
     blueish_darker: `#095979ff`,
-    reddish: `#e62a00ff`, 
-    reddish_darker: `#79090bff`,
+    reddish: `#e6004dff`, 
+    reddish_darker: `#bf0040ff`,
     components: {
       blockquote: {
         background: `#2d3748`,

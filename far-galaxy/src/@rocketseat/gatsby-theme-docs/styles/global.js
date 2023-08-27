@@ -1328,7 +1328,7 @@ export default function GlobalStyle() {
             transform: skew(0deg);
           }
           50% {
-            text-shadow: 0 0 0 ${theme.colors.blueish};
+            text-shadow: 0 0 0 ${theme.colors.blueish_variant_3};
             transform: skew(-10deg);
           }
           75% {
