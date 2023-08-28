@@ -39,18 +39,18 @@ import sharpshooter_art from '/src/images/sharpshooter.jpg';
 import slicer_art from '/src/images/slicer.jpg';
 import trader_art from '/src/images/trader.jpg';
 
-import battlearmor_art from '/src/images/zabrak.jpg';
-import cyberneticarm_art from '/src/images/zabrak.jpg';
-import cyberneticleg_art from '/src/images/zabrak.jpg';
+import battlearmor_art from '/src/images/battlearmor.jpg';
+import cyberneticarm_art from '/src/images/cyberneticarm.jpg';
+import cyberneticleg_art from '/src/images/cyberneticleg.jpg';
 import disguisekit_art from '/src/images/disguisekit.jpg';
-import envirosuit_art from '/src/images/zabrak.jpg';
-import heavyblaster_art from '/src/images/zabrak.jpg';
-import jetpack_art from '/src/images/zabrak.jpg';
-import lightsaber_art from '/src/images/zabrak.jpg';
-import slugthrowerifle_art from '/src/images/zabrak.jpg';
-import survivalpack_art from '/src/images/zabrak.jpg';
-import thermaldetonators_art from '/src/images/zabrak.jpg';
-import utilitybelt_art from '/src/images/zabrak.jpg';
+import envirosuit_art from '/src/images/envirosuit.jpg';
+import heavyblaster_art from '/src/images/heavyblaster.jpg';
+import jetpack_art from '/src/images/jetpack.jpg';
+import lightsaber_art from '/src/images/lightsaber.jpg';
+import slugthrowerrifle_art from '/src/images/slugthrowerrifle.jpg';
+import survivalpack_art from '/src/images/survivalpack.jpg';
+import thermaldetonators_art from '/src/images/thermaldetonators.jpg';
+import utilitybelt_art from '/src/images/utilitybelt.jpg';
 
 function CharacterStats() {
   const windowGlobal = typeof window !== 'undefined' && window
@@ -414,7 +414,7 @@ Apart from being able to cut through almost anything and deflect blaster fire, i
             <div class="trait gear">
                 <input id="gearSlugthrowerrifle" type="checkbox" name="gearSlugthrowerrifle" value={inputs.gearSlugthrowerrifle} onChange={handleChange} defaultChecked={inputs.gearSlugthrowerrifle}/>
                 <label for="gearSlugthrowerrifle"> <span class="trait-name">SLUGTHROWER RIFLE</span>: while attacking at long range, gain a <span class="boost">BOOST</span> when you <a href="/prompts/general-prompts#clash">CLASH</a> or <a href="/prompts/general-prompts#secure-an-advantage">SECURE AN ADVANTAGE</a> as long as you are <span class="blueish bold"><i>IN CONTROL</i></span>. If you get a <span class="blueish bold">SUCCESS</span>, you can <a href="/prompts/challenge-prompts#make-progress">MAKE PROGRESS</a> again.</label>
-                <img src={slugthrowerifle_art} class="art"/>
+                <img src={slugthrowerrifle_art} class="art"/>
             </div>
 
             <div class="trait gear">
