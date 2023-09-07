@@ -66,9 +66,6 @@ const spaceOracleResults = {
     "Metallic Wreckage",
   ],
 
-  "oracle-planet-result": [
-  ],
-
   "oracle-settlement-result": [
   ],
 
