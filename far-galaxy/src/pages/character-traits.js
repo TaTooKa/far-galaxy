@@ -25,6 +25,7 @@ import commander_art from '/src/images/commander.jpg';
 import diplomat_art from '/src/images/diplomat.jpg';
 import forceadept_art from '/src/images/forceadept.jpg';
 import forcemaster_art from '/src/images/forcemaster.jpg';
+import heavy_art from '/src/images/heavy.jpg';
 import infiltrator_art from '/src/images/infiltrator.jpg';
 import marauder_art from '/src/images/marauder.jpg';
 import mechanic_art from '/src/images/mechanic.jpg';
@@ -271,6 +272,12 @@ Gain a <span class="boost">BOOST</span> whenever you <a href="/prompts/general-p
 You are very proficient in the ways of <i>The Force</i>. You gain a <span class="boost">BOOST</span> when you <a href="/prompts/general-prompts#use-the-force">USE THE FORCE</a>, and you suffer 1 less <b>WILL</b> when you <a href="/prompts/suffer-prompts#endure-stress">ENDURE STRESS</a> by channeling <i>The Force</i>.
 </label>
                 <img src={forcemaster_art} class="art"/>
+            </div>
+
+            <div class="trait skill">
+                <input id="skillHeavy" type="checkbox" name="skillHeavy" value={inputs.skillHeavy} onChange={handleChange} defaultChecked={inputs.skillHeavy}/>
+                <label for="skillHeavy"> <span class="trait-name">HEAVY</span>: You are trained in using heavy assault weapons like a rotary blaster cannon or ordnance launcers. When fighting with that type of artillery, you can <a href="/prompts/general-prompts#clash">CLASH</a> using your <span class="stat">MIGHT</span> instead of your <span class="stat">SWIFT</span>.</label>
+                <img src={heavy_art} class="art"/>
             </div>
 
             <div class="trait skill">
