@@ -158,6 +158,43 @@ export default function spaceOracles() {
 
         <h2 id="starships">STARSHIPS</h2>
 
+        <h3 id="fleet-type">FLEET TYPE</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-fleet-type-result" class="oracle-result"></span>
+          <button type="button" id="oracle-fleet-type-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <blockquote><p>Use this oracle if you encounter a fleet and want to reveal its nature.</p></blockquote>
+
+        <h3 id="starship-type">STARSHIP TYPE</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-starship-type-result" class="oracle-result"></span>
+          <button type="button" id="oracle-starship-type-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="starship-name">STARSHIP NAME</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-starship-name-result" class="oracle-result"></span>
+          <button type="button" id="oracle-starship-name-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="starship-initialattitude">INITIAL ATTITUDE OR STATE UPON CONTACT</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-starship-initialattitude-result" class="oracle-result"></span>
+          <button type="button" id="oracle-starship-initialattitude-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="starship-firstlook">FIRST LOOK</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-starship-firstlook-result" class="oracle-result"></span>
+          <button type="button" id="oracle-starship-firstlook-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="starship-mission">STARSHIP MISSION OR CURRENT ACTIVITY</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-starship-mission-result" class="oracle-result"></span>
+          <button type="button" id="oracle-starship-mission-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
         <br/>
 
         <h2 id="derelicts">DERELICTS</h2>
