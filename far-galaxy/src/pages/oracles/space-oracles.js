@@ -157,7 +157,7 @@ export default function spaceOracles() {
         <br/>
 
         <h2 id="starships">STARSHIPS</h2>
-
+   
         <h3 id="fleet-type">FLEET TYPE</h3>
         <div class="oracle-container">
           <span role="textbox" id="oracle-fleet-type-result" class="oracle-result"></span>
@@ -165,31 +165,47 @@ export default function spaceOracles() {
         </div>
         <blockquote><p>Use this oracle if you encounter a fleet and want to reveal its nature.</p></blockquote>
 
-        <h3 id="starship-type">STARSHIP TYPE</h3>
+        <h3 id="known-starship">KNOWN STARSHIP</h3>
+        <blockquote><p>Use this oracle to get a known Starship from the <i>Star Wars Universe</i>.</p></blockquote>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-known-starship-result" class="oracle-result"></span>
+          <button type="button" id="oracle-known-starship-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="unknown-starship">UNKNOWN STARSHIP</h3>
+        <blockquote><p>Use these oracles to randomly generate details for a starship.</p></blockquote>
+     
+        <h4 id="starship-type">STARSHIP TYPE</h4>
         <div class="oracle-container">
           <span role="textbox" id="oracle-starship-type-result" class="oracle-result"></span>
           <button type="button" id="oracle-starship-type-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
 
-        <h3 id="starship-name">STARSHIP NAME</h3>
+        <h4 id="starship-name">STARSHIP NAME</h4>
         <div class="oracle-container">
           <span role="textbox" id="oracle-starship-name-result" class="oracle-result"></span>
           <button type="button" id="oracle-starship-name-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
 
-        <h3 id="starship-initialattitude">INITIAL ATTITUDE OR STATE UPON CONTACT</h3>
+        <h4 id="starship-manufacturer">STARSHIP MANUFACTURER OR BRAND</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-starship-manufacturer-result" class="oracle-result"></span>
+          <button type="button" id="oracle-starship-manufacturer-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h4 id="starship-initialattitude">INITIAL ATTITUDE OR STATE UPON CONTACT</h4>
         <div class="oracle-container">
           <span role="textbox" id="oracle-starship-initialattitude-result" class="oracle-result"></span>
           <button type="button" id="oracle-starship-initialattitude-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
 
-        <h3 id="starship-firstlook">FIRST LOOK</h3>
+        <h4 id="starship-firstlook">FIRST LOOK</h4>
         <div class="oracle-container">
           <span role="textbox" id="oracle-starship-firstlook-result" class="oracle-result"></span>
           <button type="button" id="oracle-starship-firstlook-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
 
-        <h3 id="starship-mission">STARSHIP MISSION OR CURRENT ACTIVITY</h3>
+        <h4 id="starship-mission">STARSHIP MISSION OR CURRENT ACTIVITY</h4>
         <div class="oracle-container">
           <span role="textbox" id="oracle-starship-mission-result" class="oracle-result"></span>
           <button type="button" id="oracle-starship-mission-button" class="randomize-button" onClick={handleOnClick}></button>

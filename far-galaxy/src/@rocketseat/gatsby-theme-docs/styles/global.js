@@ -195,13 +195,13 @@ export default function GlobalStyle() {
           color: ${theme.colors.text};
           font-weight: bold;
           text-decoration-style: dashed;
-          text-decoration-color: ${theme.colors.blueish_variant_1};
+          text-decoration-color: ${theme.colors.blueish_darker};
           transition: 0.5s;
           text-shadow: 0 0 10px #22e3ffff, 2px 2px 5px #000;
 
           &:hover {
             text-decoration-style: dashed;
-            text-decoration-color: ${theme.colors.blueish};
+            text-decoration-color: ${theme.colors.blueish_variant_2};
             text-shadow: 0 0 3px ${theme.colors.blueish};
           }
         }

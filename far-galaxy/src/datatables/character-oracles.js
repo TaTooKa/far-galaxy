@@ -603,6 +603,15 @@ const characterOracleResults = {
 
   "oracle-known-creature-result": [
     "<a href=\"https://starwars.fandom.com/wiki/Rancor\" target=\"_blank\">Rancor</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Wampa\" target=\"_blank\">Wampa</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Purrgil\" target=\"_blank\">Purrgil</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Kowakian_monkey-lizard\" target=\"_blank\">Kowakian monkey-lizard</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Sarlacc\" target=\"_blank\">Sarlacc</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Voreclaw\" target=\"_blank\">Voreclaw</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Zillo_Beast\" target=\"_blank\">Zillo Beast</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Ysalamiri\" target=\"_blank\">Ysalamiri</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Fyrnock\" target=\"_blank\">Fyrnock</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Mynock\" target=\"_blank\">Mynock</a>",
   ],
 
   "oracle-creature-environment-result": [

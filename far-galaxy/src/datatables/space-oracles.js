@@ -66,25 +66,42 @@ const spaceOracleResults = {
     "Metallic Wreckage",
   ],
 
-  "oracle-settlement-result": [
-  ],
-
-  "oracle-starship-result": [
-  ],
-
-  "oracle-derelict-result": [
-  ],
-
-  "oracle-creature-result": [
-  ],
-
   "oracle-known-sector-result": [
     "<a href=\"https://starwars.fandom.com/wiki/Koradin_sector\" target=\"_blank\">Koradin Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Aubreeyan_Cluster\" target=\"_blank\">Aubreeyan Cluster</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Bajic_sector\" target=\"_blank\">Bajic Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Bakura_sector\" target=\"_blank\">Bakura Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Barma_sector\" target=\"_blank\">Barma Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Cadavine_sector\" target=\"_blank\">Cadavine Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Cadavine_sector\" target=\"_blank\">Cadavine Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Cassander_sector\" target=\"_blank\">Cassander Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Corbett_sector\" target=\"_blank\">Corbett Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Croynar_sector\" target=\"_blank\">Croynar Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/D%27Aelgoth_sector\" target=\"_blank\">D'Aelgoth Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Dalicron_sector\" target=\"_blank\">Dalicron Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Deratus_Sector\" target=\"_blank\">Deratus Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Elochar_sector\" target=\"_blank\">Elochar Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Elrood_sector\" target=\"_blank\">Elrood Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Fakir_sector\" target=\"_blank\">Fakir Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Sector_Four_(Confederacy)\" target=\"_blank\">Sector Four (Confederacy)</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Gradilis_sector\" target=\"_blank\">Gradilis Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Moddell_sector\" target=\"_blank\">Moddell Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Zuma_sector\" target=\"_blank\">Zuma Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Terrabe_sector\" target=\"_blank\">Terrabe Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Gomar_sector\" target=\"_blank\">Gomar Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Grehollo_sector\" target=\"_blank\">Grehollo Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Guagenian_sector\" target=\"_blank\">Guagenian Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Haldeen_sector\" target=\"_blank\">Haldeen Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Halla_sector\" target=\"_blank\">Halla Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Halthor_sector\" target=\"_blank\">Halthor Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Heterkus_sector\" target=\"_blank\">Heterkus Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Hosnian_sector\" target=\"_blank\">Hosnian Sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Humbarine_sector\" target=\"_blank\">Humbarine Sector</a>",
   ],
 
   "oracle-unknown-sector-result": [
     [
-      "", "", "", "", "", "", "", "", 
+      "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
       "Alpha",
       "Beta",
       "Gamma",
@@ -653,6 +670,10 @@ const spaceOracleResults = {
     "Transport and escorts",
   ],
 
+  "oracle-known-starship-result": [
+    "<a href=\"https://starwars.fandom.com/wiki/J-type_327_Nubian_starship\" target=\"_blank\">J-type 327 Nubian starship</a>",
+  ],
+
   "oracle-starship-type-result": [
     "Carrier (Launches fighters)",
     "Corvette (Light attack ship)",
@@ -797,6 +818,33 @@ const spaceOracleResults = {
     "Vigilant",
     "Voidtreader",
     "Vulture",
+  ],
+
+  "oracle-starship-manufacturer-result": [
+    "<a href=\"https://starwars.fandom.com/wiki/MandalMotors\" target=\"_blank\">MandalMotors</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Baktoid_Armor_Workshop\" target=\"_blank\">Baktoid Armor Workshop</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Corellian_Engineering_Corporation\" target=\"_blank\">Corellian Engineering Corporation</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Loronar_Corporation\" target=\"_blank\">Loronar Corporation</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Nubia_Star_Drives,_Incorporated\" target=\"_blank\">Nubia Star Drives, Incorporated</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Core_Galaxy_Systems\" target=\"_blank\">Core Galaxy Systems</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Corellia_StarDrive\" target=\"_blank\">Corellia StarDrive</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Damorian_Manufacturing_Corporation\" target=\"_blank\">Damorian Manufacturing Corporation</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Galentro_Heavy_Works\" target=\"_blank\">Galentro Heavy Works</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Gallofree_Yards,_Inc.\" target=\"_blank\">Gallofree Yards, Inc.</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Gwori_Revolutionary_Industries\" target=\"_blank\">Gwori Revolutionary Industries</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Pantolomin_Shipwrights\" target=\"_blank\">Pantolomin Shipwrights</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Ral_Mundi%27s_Starship_Emporium\" target=\"_blank\">Ral Mundi's Starship Emporium</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Rendili_Hyperworks\" target=\"_blank\">Rendili Hyperworks</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Republic_Engineering_Corporation\" target=\"_blank\">Republic Engineering Corporation</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Sacul_Aerospace\" target=\"_blank\">Sacul Aerospace</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Sienar_Design_Systems\" target=\"_blank\">Sienar Design Systems</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Slayn_%26_Korpil\" target=\"_blank\">Slayn & Korpil</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Telgorn_Corporation\" target=\"_blank\">Telgorn Corporation</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Theed_Palace_Space_Vessel_Engineering_Corps\" target=\"_blank\">Theed Palace Space Vessel Engineering Corps</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/TransGalMeg_Industries_Inc.\" target=\"_blank\">TransGalMeg Industries Inc.</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Ubrikkian_Transports\" target=\"_blank\">Ubrikkian Transports</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Valahari_Shipworks\" target=\"_blank\">Valahari Shipworks</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Valahari_Shipworks\" target=\"_blank\">Valahari Shipworks</a>",
   ],
 
   "oracle-starship-initialattitude-result": [
