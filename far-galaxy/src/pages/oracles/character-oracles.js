@@ -15,6 +15,8 @@ export default function characterOracles() {
     {depth: 3, value: "GENDER"},
     {depth: 3, value: "PROFESSION / BACKGROUND"},
     {depth: 3, value: "REVEALED ASPECT"},
+    {depth: 3, value: "CHARACTER GOAL"},
+    {depth: 2, value: "CREATURES"},
   ]
 
   const handleOnClick = (event) => {
@@ -103,8 +105,65 @@ export default function characterOracles() {
           <button type="button" id="oracle-character-revealed-aspect-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
         <blockquote><p>Use this oracle (more than once, if necessary) as you get to know a character and discover more of their moods or personality quirks.</p></blockquote>
-        <br/>
 
+        <h3 id="character-goal">CHARACTER GOAL</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-character-goal-result" class="oracle-result"></span>
+          <button type="button" id="oracle-character-goal-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h2 id="creatures">CREATURES</h2>
+
+        <h3 id="known-creatures">KNOWN CREATURES</h3>
+        <blockquote><p>Use this oracle to get a known Creature from the <i>Star Wars Universe</i>.</p></blockquote>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-known-creature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-known-creature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="unknown-creatures">UNKNOWN CREATURES</h3>
+        <blockquote><p>Use these oracles to get a randomly generated Creature.</p></blockquote>
+
+        <h4 id="creature-environment">ENVIRONMENT OR HABITAT</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-creature-environment-result" class="oracle-result"></span>
+          <button type="button" id="oracle-creature-environment-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h4 id="creature-scale">CREATURE SCALE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-creature-scale-result" class="oracle-result"></span>
+          <button type="button" id="oracle-creature-scale-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h4 id="creature-basicform">CREATURE BASIC FORM</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-creature-basicform-result" class="oracle-result"></span>
+          <button type="button" id="oracle-creature-basicform-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h4 id="creature-firstlook">CREATURE FIRST LOOK</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-creature-firstlook-result" class="oracle-result"></span>
+          <button type="button" id="oracle-creature-firstlook-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h4 id="creature-behavior">ENCOUNTERED BEHAVIOR</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-creature-behavior-result" class="oracle-result"></span>
+          <button type="button" id="oracle-creature-behavior-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h4 id="creature-revealedaspect">CREATURE REVEALED ASPECT</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-creature-revealedaspect-result" class="oracle-result"></span>
+          <button type="button" id="oracle-creature-revealedaspect-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <blockquote><p>Use this oracle (more than once, if necessary) as you interact with the creature and discover more of its features and quirks.</p></blockquote>
+
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>

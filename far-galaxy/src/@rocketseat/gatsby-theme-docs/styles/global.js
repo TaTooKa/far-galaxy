@@ -655,64 +655,106 @@ export default function GlobalStyle() {
                 }
             }
 
-            .obligation-container {
+            .character-arc-container {
                 margin: 30px 0 20px 0;
-                .obligation-header {
+                padding: 5px 10px;
+                border: 1px solid ${theme.colors.blueish};
+                box-shadow: inset 0 0 15px ${theme.colors.blueish};
+                border-radius: 10px;
+                .character-arc-header {
                     display: flex;
-                    .obligation-title {
+                    .character-arc-title {
                         display: block;
-                        width: 55%;
+                        width: 100%;
                         font-size: 1.3em;
                         float: left;
                     }
-                    .obligation-progress {
-                        display: flex;
-                        width: 45%;
-                        float: right;
-                        font-size: 1em;
-                        margin: 3px 0 0 auto;
-                        input {
-                            display: block;
-                            margin: -3px 0 0 10px;
-                            height: 30px;
-                            width: 45px;
-                        }
+                }
+                .arc-container {
+                  display: block;
+                  margin: 5px 0 10px 0;
+                  padding: 5px 3px;
+                  border: 1px solid #444;
+                  min-height: 40px;
+                  box-shadow: inset 0 0 5px #000;
+                  border-radius: 5px;
+                  .arc-subtitle {
+                    height: 30px;
+                    display: block;
+                    padding: 5px 3px;
+                    width: 70%;
+                    font-size: 1em;
+                    float: left;
+                  }
+                  .arc-progress {
+                    display: flex;
+                    width: 30%;
+                    float: left;
+                    font-size: 0.6em;
+                    margin: 8px 0 0 -15px;
+                    input {
+                        display: block;
+                        margin: -10px 0 0 10px;
+                        height: 30px;
+                        width: 55px;
+                        border-radius: 0 10px 10px 0;
                     }
+                  }
+                .companionship-notes-container {
+                  margin: 50px auto 20px auto;
+                  width: 95%;
+                  label {
+                    display: block;
+                    font-size: 0.8em;
+                    textarea {
+                      display: block;
+                      margin: 10px 0 0 0;
+                      width: 100%;
+                      min-height: 100px;
+                      min-width: 100%;
+                    }
+                  }
+                }
                 }
                 .obligation-options {
-                    margin: 10px 0 0 0;
-                    .columns {
-                        display: flex;
-                        margin: 5px 0 0 0;
-                    }
-                    .col input {
-                        display: none;
-                    }
-                    .col label {
-                        font-size: 0.7em;
-                        text-align: center;
-                        display: inline-block;
-                        width: 95%;
-                        padding: 6px 0 6px 0;
-                        border: 1px solid #444;
-                        border-radius: 15px;
-                        margin: 2px;
-                        transition: 0.5s;
-                        box-shadow: inset 0 0 5px #000;
-                    }
-                    .col input:checked+label {
-                        color: ${theme.colors.blueish};
-                        text-shadow: 0 0 10px ${theme.colors.blueish};
-                        box-shadow: inset 0 0 5px ${theme.colors.blueish};
-                        border: 1px solid ${theme.colors.blueish};
-                        border-radius: 15px;
-                        transition: 0.5s;
-                    }
+                  display: block;
+                  margin: 10px 0 0 0;
+                  .obligation-subtitle {
+                    display: block;
+                    margin: 40px 0 0 0;
+                  }
+                  .columns {
+                      display: flex;
+                      margin: 5px 0 0 0;
+                  }
+                  .col input {
+                      display: none;
+                  }
+                  .col label {
+                      font-size: 0.7em;
+                      text-align: center;
+                      display: inline-block;
+                      width: 95%;
+                      padding: 6px 0 6px 0;
+                      border: 1px solid #444;
+                      border-radius: 15px;
+                      margin: 2px;
+                      transition: 0.5s;
+                      box-shadow: inset 0 0 5px #000;
+                  }
+                  .col input:checked+label {
+                      color: ${theme.colors.blueish};
+                      text-shadow: 0 0 10px ${theme.colors.blueish};
+                      box-shadow: inset 0 0 5px ${theme.colors.blueish};
+                      border: 1px solid ${theme.colors.blueish};
+                      border-radius: 15px;
+                      transition: 0.5s;
+                  }
                 }
                 .obligation-description-container {
-                  margin: 10px 0 20px 0;
+                  margin: 10px auto 20px auto;
                   display: flex;
-                  width: 100%;
+                  width: 95%;
                   background-color: ${theme.darkcolors.components.input.background};
                   border: 1px solid #444;
                   border-radius: 0 0 15px 15px;
@@ -730,18 +772,18 @@ export default function GlobalStyle() {
                   }
                 }
                 .obligation-notes-container {
-                  margin: 10px 0 20px 0;
-                  width: 100%;
+                  margin: 10px auto 20px auto;
+                  width: 95%;
                   label {
+                    display: block;
+                    font-size: 0.8em;
+                    textarea {
                       display: block;
-                      font-size: 0.8em;
-                      textarea {
-                          display: block;
-                          margin: 10px 0 0 0;
-                          width: 100%;
-                          min-height: 100px;
-                          min-width: 100%;
-                      }
+                      margin: 10px 0 0 0;
+                      width: 100%;
+                      min-height: 100px;
+                      min-width: 100%;
+                    }
                   }
                 }
             }

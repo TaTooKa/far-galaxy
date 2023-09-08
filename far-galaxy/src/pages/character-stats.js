@@ -16,6 +16,8 @@ function CharacterStats() {
       grit: "5",
       will: "5",
       gear: "5",
+      explorationProgress: "1",
+      companionshipProgress: "1",
       obligationProgress: "1",
     }
   })
@@ -160,38 +162,55 @@ function CharacterStats() {
 
         <div class="right-side">
 
-          <div class="obligation-container">
-            <div class="obligation-header">
-              <span class="obligation-title">OBLIGATION</span>
-              <label class="obligation-progress">PROGRESS <input type="number" name="obligationProgress" value={inputs.obligationProgress || ""} onChange={handleChange} min="1" max="99"/></label>
+          <div class="character-arc-container">
+            <div class="character-arc-header">
+              <span class="character-arc-title">CHARACTER ARC</span>
             </div>
-            <div class="obligation-options">
-              <span>Choose One:</span>
-              <div class="columns">
-                <div class="col left-col">
-                  <input id="obligationInput1" type="radio" name="obligation" value={inputs.obligation1 || "Addiction"} onChange={handleChange} checked={inputs.obligation==="Addiction"} alt="You are addicted to something (stims, spice, deathsticks, gambling, law-breaking, priceless antiques, etc)."/><label for="obligationInput1"> Addiction</label>
-                  <input id="obligationInput2" type="radio" name="obligation" value={inputs.obligation2 || "Betrayal"} onChange={handleChange} checked={inputs.obligation==="Betrayal"} alt="You are the betrayed or the betrayer. Target seeks answers, compensation or revenge."/><label for="obligationInput2"> Betrayal</label>
-                  <input id="obligationInput3" type="radio" name="obligation" value={inputs.obligation3 || "Blackmail"} onChange={handleChange} checked={inputs.obligation==="Blackmail"} alt="Someone has knowledge/proof of your dirty secrets. They demand money/favors."/><label for="obligationInput3"> Blackmail</label>
-                  <input id="obligationInput4" type="radio" name="obligation" value={inputs.obligation4 || "Bounty"} onChange={handleChange} checked={inputs.obligation==="Bounty"} alt="You have a price to someone. Legal warrant or criminal contract."/><label for="obligationInput4"> Bounty</label>
-                  <input id="obligationInput5" type="radio" name="obligation" value={inputs.obligation5 || "Criminal"} onChange={handleChange} checked={inputs.obligation==="Criminal"} alt="You are accused of a crime. You are on the run, burying evidence or proving innocence."/><label for="obligationInput5"> Criminal</label>
-                  <input id="obligationInput6" type="radio" name="obligation" value={inputs.obligation6 || "Debt"} onChange={handleChange} checked={inputs.obligation==="Debt"} alt="You owe a lot to someone powerful. Criminal or legal corp."/><label for="obligationInput6"> Debt</label>
-                </div>
-                <div class="col right-col">
-                  <input id="obligationInput7" type="radio" name="obligation" value={inputs.obligation7 || "Dutybound"} onChange={handleChange} checked={inputs.obligation==="Dutybound"} alt="You are bound to military service, a contract, the thieves' code, a ritual, etc."/><label for="obligationInput7"> Dutybound</label>
-                  <input id="obligationInput8" type="radio" name="obligation" value={inputs.obligation8 || "Family"} onChange={handleChange} checked={inputs.obligation==="Family"} alt="You are tied to the care/assistance of siblings, parents, children or a family business."/><label for="obligationInput8"> Family</label>
-                  <input id="obligationInput9" type="radio" name="obligation" value={inputs.obligation9 || "Favor"} onChange={handleChange} checked={inputs.obligation==="Favor"} alt="You owe a big favor to a powerful agent or friend. time to repay it."/><label for="obligationInput9"> Favor</label>
-                  <input id="obligationInput10" type="radio" name="obligation" value={inputs.obligation10 || "Oath"} onChange={handleChange} checked={inputs.obligation==="Oath"} alt="You are sworn to a religion, order or moral code. It dictates your thoughts and actions."/><label for="obligationInput10"> Oath</label>
-                  <input id="obligationInput11" type="radio" name="obligation" value={inputs.obligation11 || "Obsession"} onChange={handleChange} checked={inputs.obligation==="Obsession"} alt="You are fixated with something to your detriment (an icon, a movement, a practice, etc)."/><label for="obligationInput11"> Obsession</label>
-                  <input id="obligationInput12" type="radio" name="obligation" value={inputs.obligation12 || "Responsibility"} onChange={handleChange} checked={inputs.obligation==="Responsibility"} alt="You have a sense of accountability for something (an individual, a culture, a minority, etc)."/><label for="obligationInput12"> Responsibility</label>
-                </div>
+            <div class="exploration-container arc-container">
+              <span class="exploration-title arc-subtitle">EXPLORATION</span>
+              <label class="exploration-progress arc-progress">PROGRESS <input type="number" name="explorationProgress" value={inputs.explorationProgress || ""} onChange={handleChange} min="1" max="99"/></label>
+            </div>
+            <div class="companionship-container arc-container">
+              <span class="companionship-title arc-subtitle">COMPANIONSHIP</span>
+              <label class="companionship-progress arc-progress">PROGRESS <input type="number" name="companionshipProgress" value={inputs.companionshipProgress || ""} onChange={handleChange} min="1" max="99"/></label>
+
+              <div class="companionship-notes-container">
+                <label class="companionship_notes">NOTES: COMPANIONS AND CONTACTS<textarea name="companionshipNotes" value={inputs.companionshipNotes || ""} onChange={handleChange} /></label>
               </div>
             </div>
-            <div class="obligation-description-container">
-              <span role="textbox" name="obligationDescription" id="obligationDescription">{inputs.obligationDescription || "N/A"}</span>
+            <div class="obligation-container arc-container">
+              <span class="obligation-title arc-subtitle">OBLIGATION</span>
+              <label class="obligation-progress arc-progress">PROGRESS <input type="number" name="obligationProgress" value={inputs.obligationProgress || ""} onChange={handleChange} min="1" max="99"/></label>
+
+              <div class="obligation-options">
+                <span class="obligation-subtitle">Choose One:</span>
+                <div class="columns">
+                  <div class="col left-col">
+                    <input id="obligationInput1" type="radio" name="obligation" value={inputs.obligation1 || "Addiction"} onChange={handleChange} checked={inputs.obligation==="Addiction"} alt="You are addicted to something (stims, spice, deathsticks, gambling, law-breaking, priceless antiques, etc)."/><label for="obligationInput1"> Addiction</label>
+                    <input id="obligationInput2" type="radio" name="obligation" value={inputs.obligation2 || "Betrayal"} onChange={handleChange} checked={inputs.obligation==="Betrayal"} alt="You are the betrayed or the betrayer. Target seeks answers, compensation or revenge."/><label for="obligationInput2"> Betrayal</label>
+                    <input id="obligationInput3" type="radio" name="obligation" value={inputs.obligation3 || "Blackmail"} onChange={handleChange} checked={inputs.obligation==="Blackmail"} alt="Someone has knowledge/proof of your dirty secrets. They demand money/favors."/><label for="obligationInput3"> Blackmail</label>
+                    <input id="obligationInput4" type="radio" name="obligation" value={inputs.obligation4 || "Bounty"} onChange={handleChange} checked={inputs.obligation==="Bounty"} alt="You have a price to someone. Legal warrant or criminal contract."/><label for="obligationInput4"> Bounty</label>
+                    <input id="obligationInput5" type="radio" name="obligation" value={inputs.obligation5 || "Criminal"} onChange={handleChange} checked={inputs.obligation==="Criminal"} alt="You are accused of a crime. You are on the run, burying evidence or proving innocence."/><label for="obligationInput5"> Criminal</label>
+                    <input id="obligationInput6" type="radio" name="obligation" value={inputs.obligation6 || "Debt"} onChange={handleChange} checked={inputs.obligation==="Debt"} alt="You owe a lot to someone powerful. Criminal or legal corp."/><label for="obligationInput6"> Debt</label>
+                  </div>
+                  <div class="col right-col">
+                    <input id="obligationInput7" type="radio" name="obligation" value={inputs.obligation7 || "Dutybound"} onChange={handleChange} checked={inputs.obligation==="Dutybound"} alt="You are bound to military service, a contract, the thieves' code, a ritual, etc."/><label for="obligationInput7"> Dutybound</label>
+                    <input id="obligationInput8" type="radio" name="obligation" value={inputs.obligation8 || "Family"} onChange={handleChange} checked={inputs.obligation==="Family"} alt="You are tied to the care/assistance of siblings, parents, children or a family business."/><label for="obligationInput8"> Family</label>
+                    <input id="obligationInput9" type="radio" name="obligation" value={inputs.obligation9 || "Favor"} onChange={handleChange} checked={inputs.obligation==="Favor"} alt="You owe a big favor to a powerful agent or friend. time to repay it."/><label for="obligationInput9"> Favor</label>
+                    <input id="obligationInput10" type="radio" name="obligation" value={inputs.obligation10 || "Oath"} onChange={handleChange} checked={inputs.obligation==="Oath"} alt="You are sworn to a religion, order or moral code. It dictates your thoughts and actions."/><label for="obligationInput10"> Oath</label>
+                    <input id="obligationInput11" type="radio" name="obligation" value={inputs.obligation11 || "Obsession"} onChange={handleChange} checked={inputs.obligation==="Obsession"} alt="You are fixated with something to your detriment (an icon, a movement, a practice, etc)."/><label for="obligationInput11"> Obsession</label>
+                    <input id="obligationInput12" type="radio" name="obligation" value={inputs.obligation12 || "Responsibility"} onChange={handleChange} checked={inputs.obligation==="Responsibility"} alt="You have a sense of accountability for something (an individual, a culture, a minority, etc)."/><label for="obligationInput12"> Responsibility</label>
+                  </div>
+                </div>
+              </div>
+              <div class="obligation-description-container">
+                <span role="textbox" name="obligationDescription" id="obligationDescription">{inputs.obligationDescription || "N/A"}</span>
+              </div>
+              <div class="obligation-notes-container">
+                <label class="obligation_notes">OBLIGATION NOTES (Who? What?)<textarea name="obligationNotes" value={inputs.obligationNotes || ""} onChange={handleChange} /></label>
+              </div>
             </div>
-            <div class="obligation-notes-container">
-              <label class="obligation_notes">OBLIGATION NOTES (Who? What?)<textarea name="obligationNotes" value={inputs.obligationNotes || ""} onChange={handleChange} /></label>
-            </div>
+
           </div>
 
           <div class="notes-container">

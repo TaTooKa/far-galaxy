@@ -10,6 +10,7 @@ export default function spaceOracles() {
     {depth: 2, value: "KNOWN PLANETS"},
     {depth: 2, value: "UNKNOWN PLANETS"},
     {depth: 2, value: "PLANETSIDE SETTLEMENTS"},
+    {depth: 2, value: "PLANETSIDE LOCATIONS"},
 
   ]
 
@@ -273,6 +274,171 @@ export default function spaceOracles() {
           <span role="textbox" id="oracle-settlement-trouble-result" class="oracle-result"></span>
           <button type="button" id="oracle-settlement-trouble-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+
+        <br/>
+
+        <h2 id="planetside-locations">PLANETSIDE LOCATIONS</h2>
+        <blockquote><p>Use these oracles when exploring a strange, perilous or uncharted planetside location.<br/>
+        You can create a <b>single Challenge</b> to explore the whole location (in which case you can transition into a new area each time you <a href="/prompts/challenge-prompts#make-progress">MAKE PROGRESS</a>).</p></blockquote>
+
+        <h3 id="location-theme">LOCATION THEME</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-location-theme-result" class="oracle-result"></span>
+          <button type="button" id="oracle-location-theme-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h3 id="chaotic-location">CHAOTIC LOCATION</h3>
+        <p>Reality is corrupted or warped in this place.</p>
+        <h4 id="chaotic-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-chaotic-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-chaotic-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="chaotic-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-chaotic-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-chaotic-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="chaotic-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-chaotic-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-chaotic-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h3 id="fortified-location">FORTIFIED LOCATION</h3>
+        <p>Enemies defend this place against intruders.</p>
+        <h4 id="fortified-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-fortified-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-fortified-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="fortified-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-fortified-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-fortified-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="fortified-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-fortified-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-fortified-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h3 id="haunted-location">HAUNTED LOCATION</h3>
+        <p>Restless spirits are bound to this place.</p>
+        <h4 id="haunted-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-haunted-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-haunted-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="haunted-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-haunted-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-haunted-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="haunted-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-haunted-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-haunted-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h3 id="infested-location">INFESTED LOCATION</h3>
+        <p>Foul creatures have overrun this place.</p>
+        <h4 id="infested-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-infested-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-infested-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="infested-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-infested-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-infested-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="infested-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-infested-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-infested-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h3 id="inhabited-location">INHABITED LOCATION</h3>
+        <p>People have built a community in this place.</p>
+        <h4 id="inhabited-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-inhabited-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-inhabited-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="inhabited-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-inhabited-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-inhabited-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="inhabited-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-inhabited-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-inhabited-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        
+        <br/>
+        <h3 id="mechanical-location">MECHANICAL LOCATION</h3>
+        <p>Machines and technology hold sway in this place.</p>
+        <h4 id="mechanical-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-mechanical-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-mechanical-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="mechanical-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-mechanical-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-mechanical-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="mechanical-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-mechanical-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-mechanical-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        
+        <br/>
+        <h3 id="ruined-location">RUINED LOCATION</h3>
+        <p>Time, disaster, or war have ravaged this place.</p>
+        <h4 id="ruined-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-ruined-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-ruined-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="ruined-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-ruined-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-ruined-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="ruined-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-ruined-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-ruined-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h3 id="sacred-location">SACRED LOCATION</h3>
+        <p>Worshipers glorify strange powers in this place.</p>
+        <h4 id="sacred-location-feature">FEATURE</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-sacred-location-feature-result" class="oracle-result"></span>
+          <button type="button" id="oracle-sacred-location-feature-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="sacred-location-peril">PERIL</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-sacred-location-peril-result" class="oracle-result"></span>
+          <button type="button" id="oracle-sacred-location-peril-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h4 id="sacred-location-opportunity">OPPORTUNITY</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-sacred-location-opportunity-result" class="oracle-result"></span>
+          <button type="button" id="oracle-sacred-location-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
 
         <br/>
         <br/>

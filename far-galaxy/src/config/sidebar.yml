@@ -28,8 +28,6 @@
       link: '/oracles/space-oracles'
     - label: 'Planet Oracles'
       link: '/oracles/planet-oracles'
-    - label: 'City Oracles'
-      link: '/oracles/city-oracles'
     - label: 'Character Oracles'
       link: '/oracles/character-oracles'
     - label: 'Faction Oracles'
