@@ -157,7 +157,6 @@ function CharacterStats() {
             <input type="radio" name="gear" id="gear4" value={inputs.gear4 || "4"} onChange={handleChange} checked={inputs.gear==="4"}/><label for="gear4">4</label>
             <input type="radio" name="gear" id="gear5" value={inputs.gear5 || "5"} onChange={handleChange} checked={inputs.gear==="5"}/><label for="gear5">5</label>
           </div>
-
         </div>
 
         <div class="right-side">
@@ -175,7 +174,7 @@ function CharacterStats() {
               <label class="companionship-progress arc-progress">PROGRESS <input type="number" name="companionshipProgress" value={inputs.companionshipProgress || ""} onChange={handleChange} min="1" max="99"/></label>
 
               <div class="companionship-notes-container">
-                <label class="companionship_notes">NOTES: COMPANIONS AND CONTACTS<textarea name="companionshipNotes" value={inputs.companionshipNotes || ""} onChange={handleChange} /></label>
+                <label class="companionship_notes">COMPANIONS AND CONTACTS NOTES<textarea name="companionshipNotes" value={inputs.companionshipNotes || ""} onChange={handleChange} /></label>
               </div>
             </div>
             <div class="obligation-container arc-container">

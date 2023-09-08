@@ -16,13 +16,27 @@ export default function characterOracles() {
     {depth: 3, value: "PROFESSION / BACKGROUND"},
     {depth: 3, value: "REVEALED ASPECT"},
     {depth: 3, value: "CHARACTER GOAL"},
+    {depth: 2, value: "SPECIES"},
     {depth: 2, value: "CREATURES"},
   ]
 
   const handleOnClick = (event) => {
     var desiredElementId = event.target.id.split("-").slice(0, -1).join("-").concat("-result"); // get button id and infer input result id
     const inputResult = document.getElementById(desiredElementId);
-    const oracleResult = characterOracleResults[desiredElementId][Math.floor(Math.random()*characterOracleResults[desiredElementId].length)];
+    var oracleResult  = "";
+
+    if ( inputResult.classList.contains("combined") ) {
+      // Result is built from multiple subtables
+      var result = [];
+      characterOracleResults[desiredElementId].forEach((subTable) => {
+        result.push(subTable[Math.floor(Math.random()*subTable.length)]);
+      });
+      oracleResult = result.join("");
+    } else {
+      // Result is built from a single table
+      oracleResult = characterOracleResults[desiredElementId][Math.floor(Math.random()*characterOracleResults[desiredElementId].length)];
+    }
+
     inputResult.classList.add("toggled");
 
     setTimeout(()=> {
@@ -110,6 +124,32 @@ export default function characterOracles() {
         <div class="oracle-container">
           <span role="textbox" id="oracle-character-goal-result" class="oracle-result"></span>
           <button type="button" id="oracle-character-goal-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h2 id="species">SPECIES</h2>
+
+        <h3 id="known-species">KNOWN SPECIES</h3>
+        <blockquote><p>Use this oracle to get a known Species from the <i>Star Wars Universe</i>.</p></blockquote>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-known-species-result" class="oracle-result"></span>
+          <button type="button" id="oracle-known-species-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <h3 id="unknown-species">UNKNOWN SPECIES</h3>
+        <blockquote><p>Use these oracles to get a randomly generated Species.</p></blockquote>
+
+        <h4 id="species-name">NAME</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-species-name-result" class="oracle-result combined"></span>
+          <button type="button" id="oracle-species-name-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        
+        <h4 id="species-traits">TRAITS</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-species-traits-result" class="oracle-result combined"></span>
+          <button type="button" id="oracle-species-traits-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
 
         <br/>
