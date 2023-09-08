@@ -289,6 +289,44 @@ const spaceOracleResults = {
     ],
   ],
 
+  "oracle-sector-details-result": [
+    [
+      "Single Star System,",
+      "Single Star System,",
+      "Single Star System,",
+      "Single Star System,",
+      "Single Star System,",
+      "Single Star System,",
+      "Binary Star System,",
+      "Binary Star System,",
+      "Binary Star System,",
+      "Trinary Star System,",
+    ],
+    [
+      "2", "3", "4", "5", "6", "7", "8", "9",
+    ],
+    [
+      "Rocky Planets, ",
+    ],
+    [
+      "2", "3", "4", "5",
+    ],
+    [
+      "Gas Giants and",
+    ],
+    [
+      "an Asteroid Belt",
+      "an Asteroid Belt",
+      "an Asteroid Belt",
+      "an Asteroid Belt",
+      "an Asteroid Belt",
+      "an Asteroid Belt",
+      "a Nebula-like gas cloud",
+      "a Nebula-like gas cloud",
+      "a cluster of space-habitats",
+    ],
+  ],
+
   "oracle-settlement-name-result": [
     "Aegis",
     "Altair",
