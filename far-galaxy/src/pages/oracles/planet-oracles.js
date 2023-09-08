@@ -44,6 +44,7 @@ export default function spaceOracles() {
     <Layout title="PLANET ORACLES" headings={headings}>
       <Seo title="Planet Oracles" />
       <div class="oracles-container">
+        <blockquote><p>Use these oracles for planet generation and things found in a planet.</p></blockquote>
 
         <h2 id="known-planets">KNOWN PLANET</h2>
         <blockquote><p>Use this oracle to get a known Planet from the <i>Star Wars Universe</i>.</p></blockquote>

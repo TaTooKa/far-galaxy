@@ -8,6 +8,9 @@ import missionOracleResults from '/src/datatables/mission-oracles'
 export default function missionOracles() {
   const headings = [
     {depth: 2, value: "MISSIONS"},
+    {depth: 3, value: "MISSION TYPE"},
+    {depth: 3, value: "MISSION OBJECTIVE"},
+    {depth: 3, value: "MISSION CLIENT"},
   ]
 
   const handleOnClick = (event) => {
@@ -42,6 +45,24 @@ export default function missionOracles() {
       <div class="oracles-container">
 
         <h2 id="missions">MISSIONS</h2>
+
+        <h3 id="mission-type">MISSION TYPE</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-mission-type-result" class="oracle-result"></span>
+          <button type="button" id="oracle-mission-type-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="mission-objective">MISSION OBJECTIVE OR TARGET</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-mission-objective-result" class="oracle-result"></span>
+          <button type="button" id="oracle-mission-objective-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="mission-client">MISSION CLIENT OR SPONSOR</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-mission-client-result" class="oracle-result"></span>
+          <button type="button" id="oracle-mission-client-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
  
         <br/>
         <br/>
