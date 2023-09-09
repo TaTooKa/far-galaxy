@@ -1,5 +1,9 @@
 import React from 'react';
 
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
 const Stat = ({name}) => {
 
   const windowGlobal = typeof window !== 'undefined' && window
@@ -26,11 +30,15 @@ const Stat = ({name}) => {
       statValue = savedCharacter.guile;
       break;
   }
+
+  if ( !isNumeric(statValue) ) {
+    statValue = "?";
+  }
   
   return (
     <span>
       <span class="stat">{name}</span>
-      <span class="stat-value">({statValue})</span>
+      <span class="stat-value" title="this value is defined in the character STATS page.">({statValue})</span>
     </span>
   )
 };

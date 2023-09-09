@@ -177,6 +177,7 @@ export default function GlobalStyle() {
           margin: 0 0 0 3px;
           vertical-align: top;
           text-shadow: 0 0 10px #000;
+          cursor: help;
         }
 
         code.inline-code {
@@ -1412,8 +1413,7 @@ export default function GlobalStyle() {
           font-size: 0.9em;
           padding: 5px 10px;
           box-shadow: inset 0 0 5px #000;
-          min-height: 35px;
-          max-height: 150px;
+          height: 150px;
           overflow: auto;
           color: #999;
           transition: 1s;
