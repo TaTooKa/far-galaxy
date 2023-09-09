@@ -332,6 +332,7 @@ export default function GlobalStyle() {
 
           li {
             line-height: 28px;
+            margin: 5px 0;
           }
         }
         
