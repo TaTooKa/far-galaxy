@@ -170,6 +170,14 @@ export default function GlobalStyle() {
         .stat {
             font-family: 'SFDistantGalaxy';
         }
+        .stat-value {
+          font-size: 0.8em;
+          font-weight: bold;
+          color: #888;
+          margin: 0 0 0 3px;
+          vertical-align: top;
+          text-shadow: 0 0 10px #000;
+        }
 
         code.inline-code {
           display: inline-block;
