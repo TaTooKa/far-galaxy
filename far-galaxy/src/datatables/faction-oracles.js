@@ -1,8 +1,8 @@
 const factionOracleResults = {
     "oracle-faction-type-result": [
-        "<a href=\"/oracles/faction-oracles#faction-dominion\">Dominion</a>",
-        "<a href=\"/oracles/faction-oracles#faction-guild\">Guild</a>",
-        "<a href=\"/oracles/faction-oracles#faction-fringegroup\">Fringe Group</a>",
+        "<a href=\"/oracles/faction-oracles#faction-dominion\">Dominion</a>: A governing power over a sector, planet or other sphere of influence.",
+        "<a href=\"/oracles/faction-oracles#faction-guild\">Guild</a>: An organization of specialists over a particular trade.",
+        "<a href=\"/oracles/faction-oracles#faction-fringegroup\">Fringe Group</a>: A band of outlaws, outcasts or rogues.",
     ],
 
     "oracle-faction-dominion-result": [

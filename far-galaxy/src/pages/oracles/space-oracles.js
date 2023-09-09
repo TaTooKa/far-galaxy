@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 import Seo from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 
 import spaceOracleResults from '/src/datatables/space-oracles'
 
-export default function spaceOracles() {
+export default function SpaceOracles() {
   const headings = [
     {depth: 2, value: "SPACE ENCOUNTERS"},
     {depth: 2, value: "STAR SECTORS"},
@@ -15,6 +15,18 @@ export default function spaceOracles() {
     {depth: 2, value: "DERELICTS"},
     {depth: 3, value: "DERELICT ZONES"},
   ]
+
+  const oracleLogName = "spaceOraclesLog";
+
+  const windowGlobal = typeof window !== 'undefined' && window
+  const savedOracleLog = windowGlobal ? windowGlobal.localStorage.getItem(oracleLogName) : ""
+
+  useEffect(() => {
+    // on load...
+    const oraclesLog = document.getElementById('oracles-log');
+    oraclesLog.innerHTML = savedOracleLog;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+  }, []);
 
   const handleOnClick = (event) => {
     var desiredElementId = event.target.id.split("-").slice(0, -1).join("-").concat("-result"); // get button id and infer input result id
@@ -35,6 +47,14 @@ export default function spaceOracles() {
 
     inputResult.classList.add("toggled");
 
+    /* Oracle LOG */
+    const titleElement = inputResult.parentElement.closest('div.oracle-container').previousElementSibling;
+    const oraclesLog = document.getElementById('oracles-log');
+    const log = "<span class=\"log-entry\"><b>"+titleElement.innerHTML+":</b> "+oracleResult+"</span><br/>";
+    oraclesLog.innerHTML += log;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+    windowGlobal.localStorage.setItem(oracleLogName, oraclesLog.innerHTML);
+
     setTimeout(()=> {
       inputResult.classList.remove("toggled");
       inputResult.innerHTML = oracleResult;
@@ -45,6 +65,9 @@ export default function spaceOracles() {
   return (
     <Layout title="SPACE ORACLES" headings={headings}>
       <Seo title="Space Oracles" />
+
+      <div id="oracles-log"></div>
+
       <div class="oracles-container">
 
         <h2 id="space-encounters">SPACE ENCOUNTERS</h2>
@@ -77,18 +100,18 @@ export default function spaceOracles() {
         <h2 id="star-sectors">STAR SECTORS</h2>
 
         <h3 id="known-sector">KNOWN STAR SECTOR</h3>
-        <blockquote><p>Use this oracle to get a known Star Sector from the <i>Star Wars Universe</i>.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-known-sector-result" class="oracle-result"></span>
           <button type="button" id="oracle-known-sector-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to get a known Star Sector from the <i>Star Wars Universe</i>.</p></blockquote>
 
         <h3 id="unknown-sector">UNKNOWN STAR SECTOR</h3>
-        <blockquote><p>Use this oracle to get a randomly generated Star Sector.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-unknown-sector-result" class="oracle-result combined"></span>
           <button type="button" id="oracle-unknown-sector-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to get a randomly generated Star Sector.</p></blockquote>
         <h4 id="sector-details">SECTOR DETAILS</h4>
         <div class="oracle-container">
           <span role="textbox" id="oracle-sector-details-result" class="oracle-result combined"></span>
@@ -151,18 +174,18 @@ export default function spaceOracles() {
         <h2 id="spaceborne-happenstances">SPACEBORNE HAPPENSTANCES</h2>
 
         <h3 id="spaceborne-peril">SPACEBORNE PERIL</h3>
-        <blockquote><p>Use this oracle to generate trouble or setback while on a spaceship.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-spaceborne-peril-result" class="oracle-result"></span>
           <button type="button" id="oracle-spaceborne-peril-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to generate trouble or setback while on a spaceship.</p></blockquote>
                 
         <h3 id="spaceborne-opportunity">SPACEBORNE OPPORTUNITY</h3>
-        <blockquote><p>Use this oracle to generate a lucky break or unexpected advantage while on a spaceship.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-spaceborne-opportunity-result" class="oracle-result"></span>
           <button type="button" id="oracle-spaceborne-opportunity-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to generate a lucky break or unexpected advantage while on a spaceship.</p></blockquote>
 
         <br/>
 
@@ -176,11 +199,11 @@ export default function spaceOracles() {
         <blockquote><p>Use this oracle if you encounter a fleet and want to reveal its nature.</p></blockquote>
 
         <h3 id="known-starship">KNOWN STARSHIP</h3>
-        <blockquote><p>Use this oracle to get a known Starship from the <i>Star Wars Universe</i>.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-known-starship-result" class="oracle-result"></span>
           <button type="button" id="oracle-known-starship-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to get a known Starship from the <i>Star Wars Universe</i>.</p></blockquote>
 
         <h3 id="unknown-starship">UNKNOWN STARSHIP</h3>
         <blockquote><p>Use these oracles to randomly generate details for a starship.</p></blockquote>

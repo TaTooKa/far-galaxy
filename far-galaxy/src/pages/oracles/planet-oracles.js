@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 import Seo from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 
 import planetOracleResults from '/src/datatables/planet-oracles'
 
-export default function spaceOracles() {
+export default function PlanetOracles() {
   const headings = [
     {depth: 2, value: "KNOWN PLANETS"},
     {depth: 2, value: "UNKNOWN PLANETS"},
@@ -13,6 +13,18 @@ export default function spaceOracles() {
     {depth: 2, value: "PLANETSIDE LOCATIONS"},
 
   ]
+
+  const oracleLogName = "planetOraclesLog";
+
+  const windowGlobal = typeof window !== 'undefined' && window
+  const savedOracleLog = windowGlobal ? windowGlobal.localStorage.getItem(oracleLogName) : ""
+
+  useEffect(() => {
+    // on load...
+    const oraclesLog = document.getElementById('oracles-log');
+    oraclesLog.innerHTML = savedOracleLog;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+  }, []);
 
   const handleOnClick = (event) => {
     var desiredElementId = event.target.id.split("-").slice(0, -1).join("-").concat("-result"); // get button id and infer input result id
@@ -33,6 +45,14 @@ export default function spaceOracles() {
 
     inputResult.classList.add("toggled");
 
+    /* Oracle LOG */
+    const titleElement = inputResult.parentElement.closest('div.oracle-container').previousElementSibling;
+    const oraclesLog = document.getElementById('oracles-log');
+    const log = "<span class=\"log-entry\"><b>"+titleElement.innerHTML+":</b> "+oracleResult+"</span><br/>";
+    oraclesLog.innerHTML += log;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+    windowGlobal.localStorage.setItem(oracleLogName, oraclesLog.innerHTML);
+
     setTimeout(()=> {
       inputResult.classList.remove("toggled");
       inputResult.innerHTML = oracleResult;
@@ -43,15 +63,17 @@ export default function spaceOracles() {
   return (
     <Layout title="PLANET ORACLES" headings={headings}>
       <Seo title="Planet Oracles" />
+
+      <div id="oracles-log"></div>
+
       <div class="oracles-container">
-        <blockquote><p>Use these oracles for planet generation and things found in a planet.</p></blockquote>
 
         <h2 id="known-planets">KNOWN PLANET</h2>
-        <blockquote><p>Use this oracle to get a known Planet from the <i>Star Wars Universe</i>.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-known-planet-result" class="oracle-result"></span>
           <button type="button" id="oracle-known-planet-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to get a known Planet from the <i>Star Wars Universe</i>.</p></blockquote>
 
         <br/>
 

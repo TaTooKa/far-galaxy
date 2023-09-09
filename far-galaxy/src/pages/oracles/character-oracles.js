@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 import Seo from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 
 import characterOracleResults from '/src/datatables/character-oracles'
 
-export default function characterOracles() {
+export default function CharacterOracles() {
   const headings = [
     {depth: 2, value: "GENERAL CHARACTERS"},
     {depth: 3, value: "NAME"},
@@ -20,6 +20,18 @@ export default function characterOracles() {
     {depth: 2, value: "CREATURES"},
     {depth: 2, value: "NEMESIS"},
   ]
+  
+  const oracleLogName = "characterOraclesLog";
+
+  const windowGlobal = typeof window !== 'undefined' && window
+  const savedOracleLog = windowGlobal ? windowGlobal.localStorage.getItem(oracleLogName) : ""
+
+  useEffect(() => {
+    // on load...
+    const oraclesLog = document.getElementById('oracles-log');
+    oraclesLog.innerHTML = savedOracleLog;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+  }, []);
 
   const renderTemplate = (string, obj) => {
     var s = string;
@@ -61,6 +73,14 @@ export default function characterOracles() {
 
     inputResult.classList.add("toggled");
 
+    /* Oracle LOG */
+    const titleElement = inputResult.parentElement.closest('div.oracle-container').previousElementSibling;
+    const oraclesLog = document.getElementById('oracles-log');
+    const log = "<span class=\"log-entry\"><b>"+titleElement.innerHTML+":</b> "+oracleResult+"</span><br/>";
+    oraclesLog.innerHTML += log;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+    windowGlobal.localStorage.setItem(oracleLogName, oraclesLog.innerHTML);
+
     setTimeout(()=> {
       inputResult.classList.remove("toggled");
       inputResult.innerHTML = oracleResult;
@@ -84,6 +104,9 @@ export default function characterOracles() {
   return (
     <Layout title="CHARACTER ORACLES" headings={headings}>
       <Seo title="Character Oracles" />
+
+      <div id="oracles-log"></div>
+
       <div class="oracles-container">
 
         <h2 id="general-characters">GENERAL CHARACTERS</h2>
@@ -145,11 +168,11 @@ export default function characterOracles() {
         <h2 id="species">SPECIES</h2>
 
         <h3 id="known-species">KNOWN SPECIES</h3>
-        <blockquote><p>Use this oracle to get a known Species from the <i>Star Wars Universe</i>.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-known-species-result" class="oracle-result"></span>
           <button type="button" id="oracle-known-species-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to get a known Species from the <i>Star Wars Universe</i>.</p></blockquote>
 
         <br/>
         <h3 id="unknown-species">UNKNOWN SPECIES</h3>
@@ -171,11 +194,11 @@ export default function characterOracles() {
         <h2 id="creatures">CREATURES</h2>
 
         <h3 id="known-creatures">KNOWN CREATURES</h3>
-        <blockquote><p>Use this oracle to get a known Creature from the <i>Star Wars Universe</i>.</p></blockquote>
         <div class="oracle-container">
           <span role="textbox" id="oracle-known-creature-result" class="oracle-result"></span>
           <button type="button" id="oracle-known-creature-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <blockquote><p>Use this oracle to get a known Creature from the <i>Star Wars Universe</i>.</p></blockquote>
 
         <h3 id="unknown-creatures">UNKNOWN CREATURES</h3>
         <blockquote><p>Use these oracles to get a randomly generated Creature.</p></blockquote>
@@ -223,6 +246,7 @@ export default function characterOracles() {
 
         <blockquote><p>Use these oracles when you need to come up with an antagonistic boss or leader of a faction.</p></blockquote>
 
+        <h3 id="nemesis-nature">NEMESIS NATURE</h3>
         <div class="oracle-container">
           <span role="textbox" id="oracle-nemesis-result" class="oracle-result combined"></span>
           <button type="button" id="oracle-nemesis-button" class="randomize-button" onClick={handleOnClick}></button>

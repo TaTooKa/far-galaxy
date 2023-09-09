@@ -1395,6 +1395,54 @@ export default function GlobalStyle() {
         ${'' /* END BOOST EFFECT */}
 
         ${'' /* ORACLE PAGES  */}
+        div#oracles-log {
+          border: 1px solid #444;
+          background-color: ${theme.darkcolors.components.input.background};
+          border-radius: 5px;
+          font-size: 0.9em;
+          padding: 5px 10px;
+          box-shadow: inset 0 0 5px #000;
+          min-height: 35px;
+          max-height: 150px;
+          overflow: auto;
+          color: #999;
+          transition: 1s;
+          :after {
+            content: "ORACLE LOG";
+            color: #444;
+            text-shadow: 0 0 10px #000;
+            float: right;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 0.8em;
+          }
+          .log-entry {
+            line-height: 25px;
+          }
+          /* width */
+          ::-webkit-scrollbar {
+            width: 10px;
+            transition: 1s;
+          }
+          /* Track */
+          ::-webkit-scrollbar-track {
+            background: #222; 
+            box-shadow: inset 0 0 5px #000;
+          }
+          /* Handle */
+          ::-webkit-scrollbar-thumb {
+            background: ${theme.colors.blueish_darker};
+            transition: 1s;
+            border-radius: 3px;
+            box-shadow: inset 0 0 5px ${theme.colors.blueish};
+          }
+          /* Handle on hover */
+          ::-webkit-scrollbar-thumb:hover {
+            background: ${theme.colors.blueish};
+            transition: 1s;
+            box-shadow: 0 0 5px ${theme.colors.blueish};
+          }
+        }
         .oracles-container {
           min-height: 850px;
           h4 {

@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 import Seo from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 
 import factionOracleResults from '/src/datatables/faction-oracles'
 
-export default function factionOracles() {
+export default function FactionOracles() {
   const headings = [
     {depth: 2, value: "FACTION TYPE"},
     {depth: 2, value: "FACTION CHARACTERISTICS"},
 
   ]
+  
+  const oracleLogName = "factionOraclesLog";
+
+  const windowGlobal = typeof window !== 'undefined' && window
+  const savedOracleLog = windowGlobal ? windowGlobal.localStorage.getItem(oracleLogName) : ""
+
+  useEffect(() => {
+    // on load...
+    const oraclesLog = document.getElementById('oracles-log');
+    oraclesLog.innerHTML = savedOracleLog;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+  }, []);
 
   const renderTemplate = (string, obj) => {
     var s = string;
@@ -50,6 +62,14 @@ export default function factionOracles() {
 
     inputResult.classList.add("toggled");
 
+    /* Oracle LOG */
+    const titleElement = inputResult.parentElement.closest('div.oracle-container').previousElementSibling;
+    const oraclesLog = document.getElementById('oracles-log');
+    const log = "<span class=\"log-entry\"><b>"+titleElement.innerHTML+":</b> "+oracleResult+"</span><br/>";
+    oraclesLog.innerHTML += log;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+    windowGlobal.localStorage.setItem(oracleLogName, oraclesLog.innerHTML);
+
     setTimeout(()=> {
       inputResult.classList.remove("toggled");
       inputResult.innerHTML = oracleResult;
@@ -60,6 +80,9 @@ export default function factionOracles() {
   return (
     <Layout title="FACTION ORACLES" headings={headings}>
       <Seo title="Faction Oracles" />
+
+      <div id="oracles-log"></div>
+
       <div class="oracles-container">
 
         <h2 id="faction-type">FACTION TYPE</h2>
@@ -69,7 +92,6 @@ export default function factionOracles() {
         </div>
 
         <h3 id="faction-dominion">DOMINION</h3>
-        <p>A governing power over a sector, planet or other sphere of influence.</p>
         <div class="oracle-container">
           <span role="textbox" id="oracle-faction-dominion-result" class="oracle-result"></span>
           <button type="button" id="oracle-faction-dominion-button" class="randomize-button" onClick={handleOnClick}></button>
@@ -81,14 +103,12 @@ export default function factionOracles() {
         </div>
 
         <h3 id="faction-guild">GUILD</h3>
-        <p>An organization of specialists over a particular trade.</p>
         <div class="oracle-container">
           <span role="textbox" id="oracle-faction-guild-result" class="oracle-result"></span>
           <button type="button" id="oracle-faction-guild-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
 
         <h3 id="faction-fringegroup">FRINGE GROUP</h3>
-        <p>A band of outlaws, outcasts or rogues.</p>
         <div class="oracle-container">
           <span role="textbox" id="oracle-faction-fringegroup-result" class="oracle-result"></span>
           <button type="button" id="oracle-faction-fringegroup-button" class="randomize-button" onClick={handleOnClick}></button>

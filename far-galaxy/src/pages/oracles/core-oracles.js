@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 import Seo from '@rocketseat/gatsby-theme-docs/src/components/SEO';
@@ -14,12 +14,32 @@ export default function CoreOracles() {
     {depth: 2, value: "STORY COMPLICATION"},
     {depth: 2, value: "STORY CLUE"},
   ]
+  
+  const oracleLogName = "coreOraclesLog";
+
+  const windowGlobal = typeof window !== 'undefined' && window
+  const savedOracleLog = windowGlobal ? windowGlobal.localStorage.getItem(oracleLogName) : ""
+
+  useEffect(() => {
+    // on load...
+    const oraclesLog = document.getElementById('oracles-log');
+    oraclesLog.innerHTML = savedOracleLog;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+  }, []);
 
   const handleOnClick = (event) => {
     var desiredElementId = event.target.id.split("-").slice(0, -1).join("-").concat("-result"); // get button id and infer input result id
     const inputResult = document.getElementById(desiredElementId);
     const oracleResult = coreOracleResults[desiredElementId][Math.floor(Math.random()*coreOracleResults[desiredElementId].length)];
     inputResult.classList.add("toggled");
+
+    /* Oracle LOG */
+    const titleElement = inputResult.parentElement.closest('div.oracle-container').previousElementSibling;
+    const oraclesLog = document.getElementById('oracles-log');
+    const log = "<span class=\"log-entry\"><b>"+titleElement.innerHTML+":</b> "+oracleResult+"</span><br/>";
+    oraclesLog.innerHTML += log;
+    oraclesLog.scrollTop = oraclesLog.scrollHeight;
+    windowGlobal.localStorage.setItem(oracleLogName, oraclesLog.innerHTML);
 
     setTimeout(()=> {
       inputResult.classList.remove("toggled");
@@ -31,6 +51,9 @@ export default function CoreOracles() {
   return (
     <Layout title="CORE ORACLES" headings={headings}>
       <Seo title="Core Oracles" />
+
+      <div id="oracles-log"></div>
+
       <div class="oracles-container">
         <h2 id="action">ACTION</h2>
         <div class="oracle-container">

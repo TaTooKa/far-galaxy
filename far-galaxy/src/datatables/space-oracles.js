@@ -107,7 +107,7 @@ const spaceOracleResults = {
     "<a href=\"https://starwars.fandom.com/wiki/Morellian_Commonwealth\" target=\"_blank\">Morellian Commonwealth</a>",
     "<a href=\"https://starwars.fandom.com/wiki/Noonian_sector\" target=\"_blank\">Noonian sector</a>",
     "<a href=\"https://starwars.fandom.com/wiki/Numesira_sector\" target=\"_blank\">Numesira sector</a>",
-    "<a href=\"https://starwars.fandom.com/wiki/Quohag_sector\" target=\"_blank\">Quohag_sector</a>",
+    "<a href=\"https://starwars.fandom.com/wiki/Quohag_sector\" target=\"_blank\">Quohag sector</a>",
     "<a href=\"https://starwars.fandom.com/wiki/Rayter_sector\" target=\"_blank\">Rayter sector</a>",
     "<a href=\"https://starwars.fandom.com/wiki/Regani_sector\" target=\"_blank\">Regani sector</a>",
     "<a href=\"https://starwars.fandom.com/wiki/Sector_11_(location)\" target=\"_blank\">Sector 11</a>",
