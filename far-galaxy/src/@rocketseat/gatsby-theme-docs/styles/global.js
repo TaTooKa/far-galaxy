@@ -663,6 +663,16 @@ export default function GlobalStyle() {
                     display: none;
                 }
             }
+            #traits-container {
+              border: 1px solid #444;
+              background-color: ${theme.darkcolors.components.input.background};
+              margin: 20px 0 10px 0;
+              padding: 10px 15px;
+              line-height: 28px;
+              color: #888;
+              border-radius: 10px;
+              box-shadow: inset 0 0 5px #000;
+            }
 
             .character-arc-container {
                 margin: 30px 0 20px 0;

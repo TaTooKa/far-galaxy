@@ -106,13 +106,19 @@ function CharacterStats() {
         }
     })
     var all_traits_anchors = [];
+    var activeTraits = "";
     if ( all_traits_names_and_links.length > 0 ) {
         all_traits_names_and_links.forEach((element) => {
             all_traits_anchors.push('<a href="/character-traits#'+element.id+'">'+element.name+'</a>');
         })
-        active_traits_el.innerHTML = all_traits_anchors.join(", ");
+        activeTraits = all_traits_anchors.join(", ");
+        active_traits_el.innerHTML = activeTraits;
     } else {
-        active_traits_el.textContent = "NONE YET. Pick 3 TRAITS to start."
+        activeTraits = "NONE YET. Pick 3 TRAITS to start."
+        active_traits_el.textContent = activeTraits;
+    }
+    if ( windowGlobal ) {
+      windowGlobal.localStorage.setItem("activeTraits", activeTraits);
     }
   }
 
