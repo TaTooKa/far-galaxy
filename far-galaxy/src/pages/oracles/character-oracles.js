@@ -20,6 +20,14 @@ export default function characterOracles() {
     {depth: 2, value: "CREATURES"},
   ]
 
+  const renderTemplate = (string, obj) => {
+    var s = string;
+    for(var prop in obj) {
+      s = s.replace(new RegExp('{'+ prop +'}','g'), obj[prop]);
+    }
+    return s;
+  }
+
   const handleOnClick = (event) => {
     var desiredElementId = event.target.id.split("-").slice(0, -1).join("-").concat("-result"); // get button id and infer input result id
     const inputResult = document.getElementById(desiredElementId);
@@ -32,6 +40,19 @@ export default function characterOracles() {
         result.push(subTable[Math.floor(Math.random()*subTable.length)]);
       });
       oracleResult = result.join("");
+
+    } else if (inputResult.classList.contains("template") ) {
+      // Result is built using templates
+      var template = characterOracleResults[desiredElementId].template[Math.floor(Math.random()*characterOracleResults[desiredElementId].template.length)];
+      var params = {};
+
+      for (const [key, value] of Object.entries(characterOracleResults[desiredElementId].tables)) {
+        params[key] = characterOracleResults[desiredElementId].tables[key][Math.floor(Math.random()*characterOracleResults[desiredElementId].tables[key].length)];
+      }
+      var renderedText = renderTemplate(template, params);
+      oracleResult = renderedText.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
+
+
     } else {
       // Result is built from a single table
       oracleResult = characterOracleResults[desiredElementId][Math.floor(Math.random()*characterOracleResults[desiredElementId].length)];
@@ -67,22 +88,15 @@ export default function characterOracles() {
         <h2 id="general-characters">GENERAL CHARACTERS</h2>
         <blockquote><p>Use these general oracles for any type of character.</p></blockquote>
         <h3 id="name">NAME</h3>
-        <h4 id="character-name-lastname">⤷ FIRST-NAME</h4>
         <div class="oracle-container">
-          <span role="textbox" id="oracle-character-name-result" class="oracle-result"></span>
+          <span role="textbox" id="oracle-character-name-result" class="oracle-result template"></span>
           <button type="button" id="oracle-character-name-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
-        <h4 id="character-name-lastname">⤷ LAST-NAME</h4>
-        <div class="oracle-container">
-          <span role="textbox" id="oracle-character-name-lastname-result" class="oracle-result"></span>
-          <button type="button" id="oracle-character-name-lastname-button" class="randomize-button" onClick={handleOnClick}></button>
-        </div>
-        <h4 id="character-name-callsign">⤷ CALLSIGN</h4>
+        <h3 id="name">CALLSIGN</h3>
         <div class="oracle-container">
           <span role="textbox" id="oracle-character-callsign-result" class="oracle-result"></span>
           <button type="button" id="oracle-character-callsign-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
-        <br/>
         <h3 id="look">LOOK</h3>
         <div class="oracle-container">
           <span role="textbox" id="oracle-character-look-result" class="oracle-result"></span>
