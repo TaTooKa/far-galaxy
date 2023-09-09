@@ -692,11 +692,11 @@ export default function GlobalStyle() {
                 }
                 .arc-container {
                   display: block;
-                  margin: 5px 0 10px 0;
-                  padding: 5px 3px;
+                  margin: 5px 0 15px 0;
+                  padding: 10px 5px;
                   border: 1px solid #444;
-                  min-height: 40px;
-                  box-shadow: inset 0 0 5px #000;
+                  min-height: 50px;
+                  box-shadow: inset 0 0 5px #000, 0 0 10px #000;
                   border-radius: 5px;
                   .arc-subtitle {
                     height: 30px;
