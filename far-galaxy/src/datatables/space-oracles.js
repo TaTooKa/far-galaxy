@@ -153,15 +153,12 @@ const spaceOracleResults = {
       "Apius",
       "Aquarius",
       "Ara",
-      "Alpha Andromeda",
-      "Alpha Centauri",
-      "Alpha Persei",
       "Alcor",
       "Algol",
       "Antares",
       "Basri",
       "Behram",
-      "Beta Picoris",
+      "Picoris",
       "Boötes",
       "Cancri",
       "Canes Venatici",
@@ -309,8 +306,40 @@ const spaceOracleResults = {
       Math.floor(Math.random() * 350) + " System",
     ],
   ],
-
   "oracle-sector-details-result": [
+    [
+      "Settled Sector with ",
+      "Settled Sector with ",
+      "Settled Sector with ",
+      "Isolated Sector with ",
+      "Isolated Sector with ",
+      "Isolated Sector with ",
+      "Populated Sector with ",
+      "Deserted Sector with ",
+      "Uninhabited Sector with ",
+    ],
+    [
+      "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15",
+    ],
+    [
+      "Star systems and ",
+    ],
+    [
+      "no Hyperspace-lanes close-by",
+      "no Hyperspace-lanes close-by",
+      "no Hyperspace-lanes close-by",
+      "1 Hyperspace-lane close-by",
+      "1 Hyperspace-lane close-by",
+      "1 Hyperspace-lane close-by",
+      "1 Hyperspace-lane close-by",
+      "1 Hyperspace-lane close-by",
+      "2 Hyperspace-lanes close-by",
+      "2 Hyperspace-lanes close-by",
+      "3 Hyperspace-lanes close-by",
+    ],
+  ],
+
+  "oracle-starsystem-details-result": [
     [
       "Single Star System,",
       "Single Star System,",
@@ -327,7 +356,7 @@ const spaceOracleResults = {
       "2", "3", "4", "5", "6", "7", "8", "9",
     ],
     [
-      "Rocky Planets, ",
+      "Rocky <a href=\"/oracles/planet-oracles\">Planets</a>, ",
     ],
     [
       "2", "3", "4", "5",
@@ -344,6 +373,9 @@ const spaceOracleResults = {
       "an Asteroid Belt",
       "a Nebula-like gas cloud",
       "a Nebula-like gas cloud",
+      "a Nebula-like gas cloud",
+      "a Deep-space station",
+      "a Deep-space station",
       "a cluster of space-habitats",
     ],
   ],

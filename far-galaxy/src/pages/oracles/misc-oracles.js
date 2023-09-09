@@ -8,6 +8,9 @@ import miscOracleResults from '/src/datatables/misc-oracles'
 export default function missionOracles() {
   const headings = [
     {depth: 2, value: "COMBAT ACTION"},
+    {depth: 2, value: "TECHNOBABBLE"},
+    {depth: 2, value: "RUMORS"},
+    {depth: 2, value: "CARGO"},
   ]
 
   const handleOnClick = (event) => {
@@ -48,10 +51,33 @@ export default function missionOracles() {
         </div>
         <br/>
         <blockquote><p>Use this oracle when you need ideas to visualize beats of combat or to generate descriptive situations in an ongoing battle other than "attack" or "defend".</p></blockquote>
+
         <br/>
 
-  
+        <h2 id="technobabble">TECHNOBABBLE</h2>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-technobabble-result" class="oracle-result combined"></span>
+          <button type="button" id="oracle-technobabble-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
 
+        <br/>
+
+        <h2 id="rumors">RUMORS AT THE CANTINA</h2>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-rumors-result" class="oracle-result"></span>
+          <button type="button" id="oracle-rumors-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+
+        <h2 id="cargo">CARGO OF DUBIOUS LEGALITY</h2>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-illegalcargo-result" class="oracle-result"></span>
+          <button type="button" id="oracle-illegalcargo-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>

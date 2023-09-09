@@ -18,6 +18,7 @@ export default function characterOracles() {
     {depth: 3, value: "CHARACTER GOAL"},
     {depth: 2, value: "SPECIES"},
     {depth: 2, value: "CREATURES"},
+    {depth: 2, value: "NEMESIS"},
   ]
 
   const renderTemplate = (string, obj) => {
@@ -216,6 +217,38 @@ export default function characterOracles() {
         </div>
         <blockquote><p>Use this oracle (more than once, if necessary) as you interact with the creature and discover more of its features and quirks.</p></blockquote>
 
+        <br/>
+
+        <h2 id="nemesis">NEMESIS</h2>
+
+        <blockquote><p>Use these oracles when you need to come up with an antagonistic boss or leader of a faction.</p></blockquote>
+
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-nemesis-result" class="oracle-result combined"></span>
+          <button type="button" id="oracle-nemesis-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+        <h3 id="nemesis-quirk">QUIRK</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-nemesis-quirk-result" class="oracle-result"></span>
+          <button type="button" id="oracle-nemesis-quirk-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="nemesis-boon">BOON</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-nemesis-boon-result" class="oracle-result"></span>
+          <button type="button" id="oracle-nemesis-boon-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <h3 id="nemesis-weakness">WEAKNESS</h3>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-nemesis-weakness-result" class="oracle-result"></span>
+          <button type="button" id="oracle-nemesis-weakness-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>

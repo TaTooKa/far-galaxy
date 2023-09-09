@@ -94,6 +94,11 @@ export default function spaceOracles() {
           <span role="textbox" id="oracle-sector-details-result" class="oracle-result combined"></span>
           <button type="button" id="oracle-sector-details-button" class="randomize-button" onClick={handleOnClick}></button>
         </div>
+        <h4 id="star-system-details">STAR SYSTEM DETAILS</h4>
+        <div class="oracle-container">
+          <span role="textbox" id="oracle-starsystem-details-result" class="oracle-result combined"></span>
+          <button type="button" id="oracle-starsystem-details-button" class="randomize-button" onClick={handleOnClick}></button>
+        </div>
 
         <br/>
 
