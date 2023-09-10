@@ -10,6 +10,7 @@ import Overlay from '@rocketseat/gatsby-theme-docs/src/components/Overlay';
 import { Container, Main, Children } from './styles';
 
 import Scroll from '/src/@rocketseat/gatsby-theme-docs/components/scroll'
+import MenuButton from '/src/@rocketseat/gatsby-theme-docs/components/menubutton'
 
 import ThemeContext from '/src/context/ThemeContext'
 
@@ -34,6 +35,7 @@ export default function Layout({
       {theme => (
         <div className={theme.dark ? 'dark' : 'light'}> */}
         <Scroll showBelow={250} />
+        <MenuButton showBelow={50} handleMenuOpen={handleMenuOpen}/>
         <div className='dark'>
             <Overlay isMenuOpen={isMenuOpen} onClick={handleMenuOpen} />
             <Container>
